@@ -1,0 +1,102 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>产品管理</title>
+	<link rel="stylesheet" href="css/manage.css">
+</head>
+<body>
+<!-- 标题 S -->
+<h1>
+	产品管理
+</h1>
+<!-- 标题 E -->
+
+<!-- 一级分类 S -->
+<div class="module1">
+	<div class="title">
+		<h2>一级分类</h2>
+		<div class="add-btn add-btn1" data-id="0">添加分类</div>
+	</div>
+	<div class="radios list" id="level1-radios" data-level=0>
+	</div>	
+</div>
+<!-- 一级分类 E -->
+
+<!-- 二级分类 S -->
+<div class="module1">
+	<div class="title">
+		<h2>二级分类</h2>
+		<div class="add-btn add-btn1" data-id="1">添加分类</div>
+	</div>
+	<div class="radios list" id="level2-radios" data-level=1>
+	</div>	
+</div>
+<!-- 二级分类 E -->
+
+<!-- 三级分类 S -->
+<div class="module1 level3">
+	<div class="title">
+		<h2>三级分类</h2>
+		<div class="add-btn add-btn1" data-id="2">添加分类</div>
+	</div>
+	<div class="radios list" id="level3-radios" data-level=2>
+	</div>	
+</div>
+<!-- 三级分类 E -->
+
+<!-- 编辑产品 S -->
+<div class="module1">
+	<div class="title">
+		<h2>编辑产品</h2>
+		<div class="add-btn" id="add-item" data-id="3">添加产品</div>
+	</div>
+	<div class="items" id="items">
+	</div>	
+</div>
+<!-- 编辑产品 E -->
+
+<!-- 遮罩层 S -->
+<div class="detail-cover-bg">
+	<div class="detail-cover">
+		<div id="detail-cover-body">
+			<div class="edit-box">
+				<h3>编辑图片和标题</h3>
+				<div class="img-file">
+					<img src="img/item-s.jpg">
+					<label class="file-btn" for="upload-file">选择图片</label>
+					<input type="file" name="file" id="upload-file" accept="image/png, image/jpeg, image/gif, image/jpg">
+				</div>
+				<div class="title-input" id="title" contenteditable="true">标题</div>
+			</div>
+			<div class="edit-box">
+				<h3>编辑详情</h3>
+				<div class="inputs-box">
+					<div class="input-group">
+						<div class="title-input" contenteditable="true">属性</div>
+						<div class="title-input" contenteditable="true">值</div>
+					</div>
+				</div>
+				<div class="add-btn">添加属性</div>
+			</div>
+			<div class="confirm-btn">确定</div>
+		</div>
+		<span class="icon-close"></span>
+	</div>
+</div>
+<!-- 遮罩层 E -->
+
+<!-- 提交按钮 S -->
+<div class="submit-btn-box">
+	<span class="submit-btn">提交</span>
+</div>
+<!-- 提交按钮 E -->
+
+
+
+<script src="js/data.json"></script>
+<script src="js/getData.js"></script>
+<script src="js/manage.js"></script>
+
+</body>
+</html>

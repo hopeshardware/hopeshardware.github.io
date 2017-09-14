@@ -6,87 +6,48 @@
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<!-- 头部 S -->
-<div class="header">
-	<div class="header-body">
-		<div class="logo">
-			<a href="index.html"><img src="img/logo.png"></a>
-		</div>
-		<div class="about-us">
-			<a href="about-us.html">ABOUT US</a>
+	<!-- 头部 S -->
+	<div class="header">
+		<div class="header-body">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+			<div class="about-us">
+				<a href="about-us.html">ABOUT US</a>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- 头部 E -->
+	<!-- 头部 E -->
 
-<!-- 导航 S -->
-<div class="nav">
-	<ul class="nav-body">
-		<li>
-			<a href="javascript:" class="active">FASTENER</a>
-		</li>
-		<li>
-			<a href="javascript:">FASTENER</a>
-		</li>
-		<li>
-			<a href="javascript:">FASTENER</a>
-		</li>
-		<li>
-			<a href="javascript:">FASTENER</a>
-		</li>
-	</ul>
-</div>
-<!-- 导航 E -->
+	<!-- 导航 S -->
+	<div class="nav">
+		<ul id="nav-body">
+		</ul>
+	</div>
+	<!-- 导航 E -->
 
-<!-- main S -->
-<div class="main">
-	<ul class="main-body">
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-		<li>
-			<a href="second.html">
-				<img src="img/item-s.jpg">
-				<span>BOLT</span>
-			</a>
-		</li>
-	</ul>
-</div>
-<!-- main E -->
+	<!-- main S -->
+	<div class="main" >
+		<ul class="main-body" id="main-body">
+		</ul>
+	</div>
+	<!-- main E -->
 
-<!-- 版权声明 S -->
-<div class="copyright">
-	<p class="copyright-body">©2017 by HOPEShardware. All rights reserved.</p>
-</div>
+	<!-- 版权声明 S -->
+	<div class="copyright">
+		<p class="copyright-body">©2017 by HOPEShardware. All rights reserved.</p>
+	</div>
+	<!-- 版权声明 E -->
 
-<!-- 版权声明 E -->
+	<script src="js/data.json"></script>
+	<script src="js/getData.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		var foldTplStr="<li><a href='item-list.html?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
+		
+		data=data[navId].children;
+		appendTpl(data,"main-body",foldTplStr);
+	</script>
 
 </body>
 </html>

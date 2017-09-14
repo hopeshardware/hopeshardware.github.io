@@ -1,0 +1,135 @@
+@import "reset.less";
+@import "common.less";
+
+/****************PATH S***************/
+.path{
+	height:40px;
+	background:#fff;
+}
+#path-body{
+	width:1200px;
+	margin:auto;
+	font-size:14px;
+	line-height: 40px;
+	a{
+		color:#363636;
+		text-transform: uppercase;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	.icon-arrow{
+		display: inline-block;
+		margin:0 17px;
+		width:12px;
+		height:12px;
+		background:url(../img/arrow.png);
+	}
+	.blue{
+		color:#1c6aa0;
+		text-transform: uppercase;
+	}
+}
+/****************PATH E***************/
+
+/****************main S***************/
+.main{
+	.box-sizing;
+	margin:25px auto 0 auto;
+	padding:50px 60px;
+	width:1200px;
+	background: #fff;
+	border-radius:3px;
+
+	#main-body{
+		dt{
+			margin-bottom:45px;
+			text-align: center;
+		}
+		dd{
+			margin-bottom:20px;
+			line-height: 30px;
+			color:#363636;
+		}
+	}
+	
+}
+/****************main E***************/
+
+/****************遮罩层 S***************/
+.detail-cover-bg{
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+	background:rgba(0,0,0,.4);
+	text-align: center;
+	&:before{
+		content:"";
+		display: inline-block;
+		height:100%;
+		vertical-align: middle;
+	}
+}
+.detail-cover{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	.box-sizing;
+	padding:50px;
+	width:1004px;
+	border-radius:5px;
+	background:#fff;
+	font-size:0;
+	.item-img{
+		display: inline-block;
+		vertical-align: top;
+		margin-right:40px;
+		width:475px;
+		height:475px;
+		line-height:475px;
+		text-align: center;
+		img{
+			vertical-align: middle;
+			width:390px;
+			height:390px;
+		}
+	}
+	#item-descrip{
+		display: inline-block;
+		width:370px;
+		font-size:14px;
+		color:#363636;
+		text-align: left;
+		ul{
+			margin-bottom:20px;
+			line-height:20px;
+			li:first-child{
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom:8px;
+			}
+		}
+	}
+	.icon-close{
+		position: absolute;
+		top:13px;
+		right:13px;
+		width:18px;
+		height:18px;
+		background: url(../img/X.png);
+		cursor:pointer;
+	}
+	
+}
+/****************遮罩层 E***************/
+
+
+
+
+
+
+

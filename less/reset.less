@@ -1,26 +1,36 @@
-*{
-	font-family:"Microsoft Yahei";
-}
 body{
+	font-family:"Microsoft Yahei";
 	margin:0;
 }
 a{
 	text-decoration: none;
 }
-ul,ol,dl,li,dd,dt{
+ul,ol,dl,li,dd,dt,h1,h2,h3,h4,h5,h6{
 	margin:0;
-	padding:0;
+}
+ul,ol{
+	padding:0
 }
 ul,ol{
 	list-style: none;
 }
 
 /*********************CSS-REPO-S************************/
-.clearfix{
+.clearfix(){
 	&:after{
 		content:"";
 		display: table;
 		clear: both;
 	}
 }
+.box-sizing(@value:border-box){
+	box-sizing:@value;
+}
+.transition(@prop,@speed:0.3s,@timing-function:ease-out){
+	transition:@prop @speed @timing-function;
+}
+.transform(@function){
+	transform:@function;
+}
 /*********************CSS-REPO-E************************/
+

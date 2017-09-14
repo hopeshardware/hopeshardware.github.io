@@ -1,67 +1,6 @@
 @import "reset.less";
-body{
-	background:#e4f0f9;
-}
-/****************头部 S***************/
-.header{
-	background:#fff;
-}
-.header-body{
-	margin:auto;
+@import "common.less";
 
-	width:1200px;
-	height:100px;
-	>div{
-		height:100%;
-		line-height: 100px;
-	}
-	.logo{
-		float:left;
-		a{
-			display:inline-block;
-			width:245px;
-			height:50px;
-			vertical-align: middle;
-		}
-	}
-	.about-us{
-		float:right;
-		a{
-			font-size:16px;
-			color:#363636;
-		}
-	}
-}
-/****************头部 E***************/
-
-/****************导航 S***************/
-.nav{
-	background:#1c6aa0;
-}
-.nav-body{
-	margin:auto;
-	width:1200px;
-	height:50px;
-
-	text-align:center;
-	line-height:50px;
-	font-size:0;
-	li{
-		display: inline-block;
-		a{
-			padding:0 38px;
-			font-size:18px;
-			color:#fff;
-			:hover{
-				color:#fff;
-			}
-		}
-		.active{
-			color:#fff;
-		}
-	}
-}
-/****************导航 E***************/
 /****************main S***************/
 .main{
 	margin:50px auto;
@@ -72,7 +11,7 @@ body{
 	.clearfix;
 	li{
 		float:left;
-		margin:12px 11px;
+		margin:12px 10px;
 
 		width:280px;
 		height:211px;
@@ -101,6 +40,7 @@ body{
 			font-size:34px;
 			font-weight:bold;
 			color:#363636;
+			text-transform: uppercase;
 			&:before{
 				content:"";
 				position:absolute;
@@ -115,17 +55,7 @@ body{
 }
 /****************main E***************/
 
-/****************版权声明 S***************/
-.copyright{
-	margin:auto;
-	width:1200px;
-}
-.copyright-body{
-	text-align:right;
-	font-size:14px;
-	color:#888;
-}
-/****************版权声明 E***************/
+
 
 
 

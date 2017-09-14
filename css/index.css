@@ -1,7 +1,5 @@
-* {
-  font-family: "Microsoft Yahei";
-}
 body {
+  font-family: "Microsoft Yahei";
   margin: 0;
 }
 a {
@@ -12,8 +10,17 @@ ol,
 dl,
 li,
 dd,
-dt {
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
+}
+ul,
+ol {
   padding: 0;
 }
 ul,
@@ -21,13 +28,9 @@ ol {
   list-style: none;
 }
 /*********************CSS-REPO-S************************/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 /*********************CSS-REPO-E************************/
 body {
+  min-width: 1200px;
   background: #e4f0f9;
 }
 /****************头部 S***************/
@@ -64,7 +67,7 @@ body {
 .nav {
   background: #1c6aa0;
 }
-.nav-body {
+#nav-body {
   margin: auto;
   width: 1200px;
   height: 50px;
@@ -72,21 +75,33 @@ body {
   line-height: 50px;
   font-size: 0;
 }
-.nav-body li {
+#nav-body li {
   display: inline-block;
 }
-.nav-body li a {
+#nav-body li a {
   padding: 0 38px;
   font-size: 18px;
+  color: #d4d4d4;
+  text-transform: uppercase;
+}
+#nav-body li a:hover {
   color: #fff;
 }
-.nav-body li a :hover {
-  color: #fff;
-}
-.nav-body li .active {
+#nav-body li .active {
   color: #fff;
 }
 /****************导航 E***************/
+/****************版权声明 S***************/
+.copyright {
+  margin: auto;
+  width: 1200px;
+}
+.copyright-body {
+  text-align: right;
+  font-size: 14px;
+  color: #888;
+}
+/****************版权声明 E***************/
 /****************main S***************/
 .main {
   margin: 50px auto;
@@ -102,7 +117,7 @@ body {
 }
 .main-body li {
   float: left;
-  margin: 12px 11px;
+  margin: 12px 10px;
   width: 280px;
   height: 211px;
   background: #fff;
@@ -131,6 +146,7 @@ body {
   font-size: 34px;
   font-weight: bold;
   color: #363636;
+  text-transform: uppercase;
 }
 .main-body a span:before {
   content: "";
@@ -142,14 +158,3 @@ body {
   background: url(../img/gdt.jpg);
 }
 /****************main E***************/
-/****************版权声明 S***************/
-.copyright {
-  margin: auto;
-  width: 1200px;
-}
-.copyright-body {
-  text-align: right;
-  font-size: 14px;
-  color: #888;
-}
-/****************版权声明 E***************/

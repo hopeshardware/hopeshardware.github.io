@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HOPES hardware</title>
+	<link rel="stylesheet" href="css/item-list.css">
+</head>
+<body>
+	<!-- 头部 S -->
+	<div class="header">
+		<div class="header-body">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+			<div class="about-us">
+				<a href="about-us.html">ABOUT US</a>
+			</div>
+		</div>
+	</div>
+	<!-- 头部 E -->
+
+	<!-- 导航 S -->
+	<div class="nav">
+		<ul id="nav-body">
+		</ul>
+	</div>
+	<!-- 导航 E -->
+
+	<!-- PATH S -->
+	<div class="path">
+		<div id="path-body">
+			
+		</div>
+	</div>
+	<!-- PATH E -->
+
+	<!-- TAB S -->
+	<ul id="tab">
+	</ul>
+	<!-- TAB E -->
+
+	<!-- main S -->
+	<div class="main">
+		<ul id="main-body">
+		</ul>
+		<p class="end-note">—— END ——</p>
+	</div>
+		
+	<!-- main E -->
+
+	<!-- 遮罩层 S -->
+	<div class="detail-cover-bg">
+		<div class="detail-cover">
+			<dl id="detail-cover-body">
+			</dl>
+			<span class="icon-close"></span>
+		</div>
+	</div>
+	<!-- 遮罩层 E -->
+
+	<!-- 版权声明 S -->
+	<div class="copyright">
+		<p class="copyright-body">©2017 by HOPEShardware. All rights reserved.</p>
+	</div>
+	<!-- 版权声明 E -->
+
+	<script src="js/data.json"></script>
+	<script src="js/getData.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		var tabTplStr="<li data-id='{{id}}'><a href='#{{id}}'>{{name}}</a></li>";
+		var itemTplStr="<li><a href='javascript:' data-id='{{id}}'><img src='{{img}}'></a><p>{{title}}</p></li>";
+		var detailImgTplStr="<dt class='item-img'><img src='{{img}}'></dt>";
+		var detailTxtTplStr="<ul><li>{{key}}</li><li>{{value}}</li></ul>";
+		var foldId=searchStrObj.foldId===undefined?0:searchStrObj.foldId;
+		var tabId=location.hash?location.hash.substr(1):0;
+		var foldData=data[navId].children[foldId];
+		var tabData=data[navId].children[foldId].children;
+		var hasTabData=tabData[0].class==="third";//运算符优先级
+		var itemData=hasTabData?foldData.children[tabId].children:foldData.children;
+		var close=document.getElementsByClassName("icon-close")[0];
+		var detailCover=document.getElementsByClassName("detail-cover-bg")[0];
+		var cover=document.getElementById("detail-cover-body");
+		var navs,tabs;
+
+		console.log("foldId:"+foldId);
+		console.log("tabId:"+tabId);
+		// 加载路径
+		document.getElementById("path-body").innerHTML="<a href='index.html?navId="+navId+"'>"+data[navId].name+"</a><span class='icon-arrow'></span><span class='blue'>"+data[navId].children[foldId].name+"</span>";
+
+
+		// 加载选项卡
+		if(hasTabData){
+			appendTpl(tabData,"tab",tabTplStr);
+			// 默认选中选项卡第一项
+			tabs=document.querySelectorAll("#tab li");
+			tabs[tabId].setAttribute("class","selected");
+			// 获取nav数组
+			tabs=document.querySelectorAll("#tab li");
+			tabs=Array.prototype.slice.call(tabs);
+		}else{
+			document.getElementById("tab").style.display="none";
+		}
+		
+		// 加载商品列表
+		appendTpl(itemData,"main-body",itemTplStr);
+		// nav绑定click
+		if(tabs!==undefined){
+			tabs.map(function(current){
+				current.onclick=function(){
+					tabId=this.getAttribute("data-id");
+					console.log("tabId:"+tabId);
+					itemData=foldData.children[tabId].children;
+					// 加载商品列表
+					appendTpl(itemData,"main-body",itemTplStr);
+					tabs=Array.prototype.slice.call(tabs);
+					tabs.map(function(current,i){
+						i==tabId?current.setAttribute("class","selected"):current.removeAttribute("class");
+					})
+					// item绑定click
+					bindItemClick();
+				}
+			})
+		}
+
+		// item绑定click
+		bindItemClick();
+
+		// nav绑定click
+		function bindItemClick(){
+			var items=document.querySelectorAll("#main-body a");
+			items=Array.prototype.slice.call(items);
+			items.map(function(current){
+				// console.log(data);
+				current.onclick=function(){
+					var itemId=this.getAttribute("data-id");
+					var itemDetailData=itemData[itemId].detail;
+					var htmlList=[];
+					// 加载商品详情
+					htmlList=repeatTpl(itemDetailData,detailImgTplStr).concat("<dd id='item-descrip'>",repeatTpl(itemDetailData[0].txt,detailTxtTplStr),"</dd>");
+					cover.innerHTML=htmlList.join("");
+					detailCover.style.display="block";
+				}
+			})
+			close.onclick=function(){
+				detailCover.style.display="none";
+			}
+		}
+	</script>
+
+</body>
+</html>

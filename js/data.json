@@ -1,0 +1,3133 @@
+﻿data = [{
+    "class": "primary",
+    "id": 0,
+    "name": "FASTENER",
+    "children": [{
+        "class": "secondary",
+        "id": 0,
+        "name": "BOLT",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 0,
+            "img": "img/F-B-CR.jpg",
+            "title": "Carriage bolt - semi round head",
+            "detail": [{
+                "img": "img/F-B-CR.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Carriage bolt - semi round head"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-CR"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN603"
+                },
+                {
+                    "key": "Size",
+                    "value": "M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-B-E.jpg",
+            "title": "Eye bolt",
+            "detail": [{
+                "img": "img/F-B-E.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Eye bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-E1"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN444"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10...M20... M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-B-E2.png",
+            "title": "Eye bolt",
+            "detail": [{
+                "img": "img/F-B-E2.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Eye bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-E2"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN580"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10...M20... M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-B-E3.png",
+            "title": "Eye bolt",
+            "detail": [{
+                "img": "img/F-B-E3.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Eye bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-E3"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-B-H1.jpg",
+            "title": "Hex head bolt-Full Thread",
+            "detail": [{
+                "img": "img/F-B-H1.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex head bolt-Full Thread"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-H1"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN933"
+                },
+                {
+                    "key": "Size",
+                    "value": "M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-B-H2.jpg",
+            "title": "Hex head bolt-Partial Thread",
+            "detail": [{
+                "img": "img/F-B-H2.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex head bolt-Partial Thread"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-H2"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN931"
+                },
+                {
+                    "key": "Size",
+                    "value": "M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 6,
+            "img": "img/F-B-HB.png",
+            "title": "Hex socket button head bolt",
+            "detail": [{
+                "img": "img/F-B-HB.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket button head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HB"
+                },
+                {
+                    "key": "Standard",
+                    "value": "ISO7380"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 7,
+            "img": "img/F-B-HC.jpg",
+            "title": "Hex socket countersunk head bolt",
+            "detail": [{
+                "img": "img/F-B-HC.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket countersunk head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HC"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN7991 ANSIB18.3F"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M4,M5,M6,M8,M10,M12,M14,M16,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 8,
+            "img": "img/F-B-HCA1.jpg",
+            "title": "Hex socket head cap bolt",
+            "detail": [{
+                "img": "img/F-B-HCA1.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket head cap bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HCA1"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN912 ANSIB18.3SH"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M4,M5,M6,M8,M10,M12,M14,M16,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 9,
+            "img": "img/F-B-HCA2.jpg",
+            "title": "Hex socket knurled head cap bolt",
+            "detail": [{
+                "img": "img/F-B-HCA2.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket knurled head cap bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HCA2"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN912 ANSIB18.3SH"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M4,M5,M6,M8,M10,M12,M14,M16,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 10,
+            "img": "img/F-B-HFR.png",
+            "title": "Hex socket flat round head bolt",
+            "detail": [{
+                "img": "img/F-B-HFR.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket flat round head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HFR"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 11,
+            "img": "img/F-B-HFW.jpg",
+            "title": "Hex flange washer head bolt",
+            "detail": [{
+                "img": "img/F-B-HFW.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange washer head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HFW"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN6921"
+                },
+                {
+                    "key": "Size",
+                    "value": "M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 12,
+            "img": "img/F-B-HP.png",
+            "title": "Hex socket pan head bolt",
+            "detail": [{
+                "img": "img/F-B-HP.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket pan head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HP"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10...M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 13,
+            "img": "img/F-B-HTCA.png",
+            "title": "Hex thin head cap bolt",
+            "detail": [{
+                "img": "img/F-B-HTCA.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex thin head cap bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-HTCA"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10...M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 14,
+            "img": "img/F-B-KP.png",
+            "title": "Plastic knob bolt",
+            "detail": [{
+                "img": "img/F-B-KP.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Plastic knob bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-KP"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Plastic"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 15,
+            "img": "img/F-B-PC.jpg",
+            "title": "Phillips countersunk head bolt",
+            "detail": [{
+                "img": "img/F-B-PC.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips countersunk head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-PC"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN965 ANSIB18.6.3.F"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6,M2,M2.5,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 16,
+            "img": "img/F-B-PP.jpg",
+            "title": "Phillips pan head bolt",
+            "detail": [{
+                "img": "img/F-B-PP.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips pan head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-PP"
+                },
+                {
+                    "key": "Standard",
+                    "value": "ISO7045 ANSIB18.6.3P"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6,M2,M2.5,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Nylon"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 17,
+            "img": "img/F-B-PPS.jpg",
+            "title": "Phillips small pan head bolt",
+            "detail": [{
+                "img": "img/F-B-PPS.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips small pan head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-PPS"
+                },
+                {
+                    "key": "Standard",
+                    "value": "ISO7045 ANSIB18.6.3P"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6,M2,M2.5,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Nylon"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 18,
+            "img": "img/F-B-SCH.jpg",
+            "title": "Slotted cheese head bolt",
+            "detail": [{
+                "img": "img/F-B-SCH.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Slotted cheese head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-SCH"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN84 ISO1207 JISB1101CH"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6,M2,M2.5,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Nylon"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 19,
+            "img": "img/F-B-T.jpg",
+            "title": "T head bolt",
+            "detail": [{
+                "img": "img/F-B-T.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "T head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-T"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN787"
+                },
+                {
+                    "key": "Size",
+                    "value": "M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 20,
+            "img": "img/F-B-TB.png",
+            "title": "Torx socket button head bolt",
+            "detail": [{
+                "img": "img/F-B-TB.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Torx socket button head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-TB"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 21,
+            "img": "img/F-B-TC.png",
+            "title": "Torx socket countersunk head bolt",
+            "detail": [{
+                "img": "img/F-B-TC.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Torx socket countersunk head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-TC"
+                },
+                {
+                    "key": "Standard",
+                    "value": "ISO14581"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 22,
+            "img": "img/F-B-TCA.png",
+            "title": "Torx socket head cap bolt",
+            "detail": [{
+                "img": "img/F-B-TCA.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Torx socket head cap bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-TCA"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M4,M5,M6,M8,M10,M12,M14,M16,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 23,
+            "img": "img/F-B-TF.png",
+            "title": "Torx flange head bolt",
+            "detail": [{
+                "img": "img/F-B-TF.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Torx flange head bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-TF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN34800 DIN34801"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 24,
+            "img": "img/F-B-U.jpg",
+            "title": "U bolt",
+            "detail": [{
+                "img": "img/F-B-U.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "U bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-B-U"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M6,M8,M10,M12,M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 1,
+        "name": "SCREW",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 25,
+            "img": "img/F-S-CP01.png",
+            "title": "Chicago screw",
+            "detail": [{
+                "img": "img/F-S-CP01.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Chicago screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-CP01"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stailess steel,Chrome plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-S-CP02.png",
+            "title": "Chicago screw",
+            "detail": [{
+                "img": "img/F-S-CP02.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Chicago screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-CP02"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stailess steel, Nickel plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-S-CP03.png",
+            "title": "Chicago screw",
+            "detail": [{
+                "img": "img/F-S-CP03.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Chicago screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-CP03"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Copper,Copper plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-S-DH.jpg",
+            "title": "Indented Hex flange washer head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DH.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Indented Hex flange washer head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DH"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-S-DHW02.jpg",
+            "title": "Hex flange head self drilling screw with EPDM washer",
+            "detail": [{
+                "img": "img/F-S-DHW02.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange head self drilling screw with EPDM washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DHW02"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "White zinc plated carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-S-DHW03.jpg",
+            "title": "Hex flange head self drilling screw with color painting",
+            "detail": [{
+                "img": "img/F-S-DHW03.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange head self drilling screw with color painting"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DHW03"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 6,
+            "img": "img/F-S-DHW04.png",
+            "title": "Hex flange head self drilling screw with nylon washer",
+            "detail": [{
+                "img": "img/F-S-DHW04.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange head self drilling screw with nylon washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DHW04"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Yellow zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 7,
+            "img": "img/F-S-DPC.jpg",
+            "title": "Phillips countersunk head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPC.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips countersunk head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPC"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 8,
+            "img": "img/F-S-DPF04.jpg",
+            "title": "Phillips flat head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPF04.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips flat head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPF04"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Yellow zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 9,
+            "img": "img/F-S-DPP.jpg",
+            "title": "Phillips pan head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPP.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips pan head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPP"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 10,
+            "img": "img/F-S-DPW.jpg",
+            "title": "Phillips round washer head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPW.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips round washer head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPW"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 11,
+            "img": "img/F-S-DPW02.jpg",
+            "title": "Phillips round washer head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPW02.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips round washer head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPW02"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-White zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 12,
+            "img": "img/F-S-DPW03.jpg",
+            "title": "Phillips round washer head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPW03.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips round washer head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPW03"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Black oxidation"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 13,
+            "img": "img/F-S-DPW04.jpg",
+            "title": "Phillips round washer head self drilling screw",
+            "detail": [{
+                "img": "img/F-S-DPW04.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips round washer head self drilling screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-DPW04"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Yellow zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 14,
+            "img": "img/F-S-F1.png",
+            "title": "Furniture Screw",
+            "detail": [{
+                "img": "img/F-S-F1.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Furniture Screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-F1"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M5 M6.3 M7"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 15,
+            "img": "img/F-S-SHB.png",
+            "title": "Ball point bearing hex socket set screw",
+            "detail": [{
+                "img": "img/F-S-SHB.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Ball point bearing hex socket set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SHB"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 16,
+            "img": "img/F-S-SHCO.png",
+            "title": "Cone point hex socket set screw",
+            "detail": [{
+                "img": "img/F-S-SHCO.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Cone point hex socket set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SHCO"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN914"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 17,
+            "img": "img/F-S-SHCU.png",
+            "title": "Cup point hex socket set screw",
+            "detail": [{
+                "img": "img/F-S-SHCU.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Cup point hex socket set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SHCU"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN916"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 18,
+            "img": "img/F-S-SHD.png",
+            "title": "Dog point hex socket set screw",
+            "detail": [{
+                "img": "img/F-S-SHD.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Dog point hex socket set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SHD"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN915"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 19,
+            "img": "img/F-S-SHF.png",
+            "title": "Flat point hex socket set screw",
+            "detail": [{
+                "img": "img/F-S-SHF.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Flat point hex socket set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SHF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN913"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 20,
+            "img": "img/F-S-SPH.png",
+            "title": "Hollow grub Phillips set screw",
+            "detail": [{
+                "img": "img/F-S-SPH.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hollow grub Phillips set screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-SPH"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 21,
+            "img": "img/F-S-TE.png",
+            "title": "Eye self tapping screw",
+            "detail": [{
+                "img": "img/F-S-TE.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Eye self tapping screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-TE"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M3,M3.5,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 22,
+            "img": "img/F-S-TH.jpg",
+            "title": "Hex head wood screw",
+            "detail": [{
+                "img": "img/F-S-TH.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex head wood screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-TH"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN571"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M7,M8,M10,M12,M16,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-White zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 23,
+            "img": "img/F-S-THK.jpg",
+            "title": "Knurled thumb screw",
+            "detail": [{
+                "img": "img/F-S-THK.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Knurled thumb screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-TTK"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M1,M1.2,M1.6,M2,M2.5,M3,M3.5,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 24,
+            "img": "img/F-S-THS.jpg",
+            "title": "Sloted knurled thumb screw",
+            "detail": [{
+                "img": "img/F-S-THS.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Sloted knurled thumb screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-THS"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M1,M1.2,M1.6,M2,M2.5,M3,M3.5,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 25,
+            "img": "img/F-S-TPC.jpg",
+            "title": "Phillips countersunk head self tapping screw",
+            "detail": [{
+                "img": "img/F-S-TPC.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips countersunk head self tapping screw"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-S-TPC"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN7982    ISO7050"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2.2,M2.9,M3.5,M3.9,M4.2,M4.8,M5.5,M6.3"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 2,
+        "name": "NUT",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 0,
+            "img": "img/F-N-B.png",
+            "title": "Barrel nut",
+            "detail": [{
+                "img": "img/F-N-B.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Barrel nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-B"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Yellow zinc plated "
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-N-C01.png",
+            "title": "Cage nut",
+            "detail": [{
+                "img": "img/F-N-C01.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Cage nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-C01"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-N-C04.png",
+            "title": "Cage nut",
+            "detail": [{
+                "img": "img/F-N-C04.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Cage nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-C04"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel-Yellow zinc plated "
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-N-CHM.jpg",
+            "title": "Hex domed Cap nut",
+            "detail": [{
+                "img": "img/F-N-CHM.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex domed Cap nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-CHM"
+                },
+                {
+                    "key": "Standard",
+                    "value": " DIN1587"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel,Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-N-CHP.png",
+            "title": "Hex domed Cap nut",
+            "detail": [{
+                "img": "img/F-N-CHP.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex domed Cap nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-CHP"
+                },
+                {
+                    "key": "Standard",
+                    "value": " DIN1587"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Nylon"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-N-CHMP.png",
+            "title": "Hex domed plastic cap nut",
+            "detail": [{
+                "img": "img/F-N-CHMP.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex domed plastic cap nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-CHMP"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN986"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel,Nylon"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 6,
+            "img": "img/F-N-E.png",
+            "title": "Eye nut",
+            "detail": [{
+                "img": "img/F-N-E.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Eye nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-E"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10…M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 7,
+            "img": "img/F-N-H.png",
+            "title": "Hex nut",
+            "detail": [{
+                "img": "img/F-N-H.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-H"
+                },
+                {
+                    "key": "Standard ",
+                    "value": "DIN934 ANSI B18.6.3"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.2 M1.6 M2 M2.5 M2.6 M3 M3.5 M4 M5 M6 M7 M8 M10 M12 M14 M16...M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 8,
+            "img": "img/F-N-HF.png",
+            "title": "Hex flange nut",
+            "detail": [{
+                "img": "img/F-N-HF.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-HF"
+                },
+                {
+                    "key": "Standard ",
+                    "value": "DIN6923"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 9,
+            "img": "img/F-N-HFL.png",
+            "title": "Hex flange nylock nut",
+            "detail": [{
+                "img": "img/F-N-HFL.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex flange nylock nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-HFL"
+                },
+                {
+                    "key": "Standard ",
+                    "value": "DIN982 DIN985 ANSI B18.16.6"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 10,
+            "img": "img/F-N-HL.jpg",
+            "title": "Long hex nut",
+            "detail": [{
+                "img": "img/F-N-HL.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Long hex nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-HL"
+                },
+                {
+                    "key": "Standard ",
+                    "value": "DIN6334"
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 11,
+            "img": "img/F-N-LH.png",
+            "title": "Pal nut / self-locking hex counter nut",
+            "detail": [{
+                "img": "img/F-N-LH.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Pal nut / self-locking hex counter nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-LH"
+                },
+                {
+                    "key": "Standard ",
+                    "value": "DIN7967"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20 M24"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 12,
+            "img": "img/F-N-HS.jpg",
+            "title": "Hex sloted nut",
+            "detail": [{
+                "img": "img/F-N-HS.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex sloted nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-HS"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M4,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 13,
+            "img": "img/F-N-HT.png",
+            "title": "Hex thin nut",
+            "detail": [{
+                "img": "img/F-N-HT.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex thin nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-HT"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN439"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.2 M1.6 M2 M2.5 M2.6 M3 M3.5 M4 M5 M6 M7 M8 M10 M12 M14 M16…M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 14,
+            "img": "img/F-N-K.png",
+            "title": "K lock nut",
+            "detail": [{
+                "img": "img/F-N-K.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "K lock nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-K"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 15,
+            "img": "img/F-N-KMP.png",
+            "title": "Plastic knob nut",
+            "detail": [{
+                "img": "img/F-N-KMP.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Plastic knob nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-KMP"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon Steel,Copper,Plastic"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 16,
+            "img": "img/F-N-R.png",
+            "title": "Round nut",
+            "detail": [{
+                "img": "img/F-N-R.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Round nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-R"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 17,
+            "img": "img/F-N-RH.jpg",
+            "title": "Hex socket round nut",
+            "detail": [{
+                "img": "img/F-N-RH.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket round nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-RH"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 18,
+            "img": "img/F-N-RLS.png",
+            "title": "Sloted Round lock nut",
+            "detail": [{
+                "img": "img/F-N-RLS.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Sloted Round lock nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-RLS"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN1804 DIN981"
+                },
+                {
+                    "key": "Size",
+                    "value": "M10 M12 M14 M16 M18 M20… M200"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 19,
+            "img": "img/F-N-S.png",
+            "title": "Square nut",
+            "detail": [{
+                "img": "img/F-N-S.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Square nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-S"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN557 ANSI B18.2.2"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 20,
+            "img": "img/F-N-SC.png",
+            "title": "Self clinching nut",
+            "detail": [{
+                "img": "img/F-N-SC.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Self clinching nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-SC"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 21,
+            "img": "img/F-N-T.png",
+            "title": "T nut",
+            "detail": [{
+                "img": "img/F-N-T.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "T nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-T"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 22,
+            "img": "img/F-N-WB.png",
+            "title": "Butterfly / wing nut",
+            "detail": [{
+                "img": "img/F-N-WB.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Butterfly / wing nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-WB"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 23,
+            "img": "img/F-N-WR.jpg",
+            "title": "Round welding nut",
+            "detail": [{
+                "img": "img/F-N-WR.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Round welding nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-WR"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M3,M4,M5,M6,M8,M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 24,
+            "img": "img/F-N-RC.png",
+            "title": "Countersunk head blind rivet nut",
+            "detail": [{
+                "img": "img/F-N-RC.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Countersunk head blind rivet nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-N-RC"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 3,
+        "name": "WASHER",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 14,
+            "img": "img/F-W-ETL.png",
+            "title": "External teeth lock washer",
+            "detail": [{
+                "img": "img/F-W-ETL.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "External teeth lock washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-W-ETL"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN6797A   DIN6798-A"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M18 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Aluminium"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-W-F.png",
+            "title": "Flat washer",
+            "detail": [{
+                "img": "img/F-W-F.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Flat washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-W-F"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN125/126  DIN440  DIN7394  DIN7989  DIN1052  DIN9021  ASTM-F436"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M14 M16 M18 M20...M30 M40"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Aluminium"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-W-ITL.png",
+            "title": "Internal teeth lock washer",
+            "detail": [{
+                "img": "img/F-W-ITL.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Internal teeth lock washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-W-ITL"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN6797-J   DIN6798-J"
+                },
+                {
+                    "key": "Size",
+                    "value": "M3 M4 M5 M6 M8 M10 M12 M14 M16 M18 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Aluminium"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-W-S.png",
+            "title": "Spring washer",
+            "detail": [{
+                "img": "img/F-W-S.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-W-S"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN127  DIN7980  ANSI B18.21.1   JIS B1251   BS B1802"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M14 M16 M18 M20...M30 M40 M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Aluminium"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-W-WS.jpg",
+            "title": "Wave spring washer",
+            "detail": [{
+                "img": "img/F-W-WS.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Wave spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-W-WS"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN128"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M4 M5 M6 M8 M10 M12 M14 M16 M18 M20...M30 M40 M50"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel, Copper, Aluminium"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 4,
+        "name": "ANCHOR",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 0,
+            "img": "img/F-A-C.jpg",
+            "title": "Cut anchor",
+            "detail": [{
+                "img": "img/F-A-C.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Cut anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-C"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-A-CB.png",
+            "title": "Chemical anchor bolt",
+            "detail": [{
+                "img": "img/F-A-CB.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Chemical anchor bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-CB"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-A-D.jpg",
+            "title": "Drop in anchor",
+            "detail": [{
+                "img": "img/F-A-D.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Drop in anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-D"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-A-EL.png",
+            "title": "Elevator anchor",
+            "detail": [{
+                "img": "img/F-A-EL.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Elevator anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-EL"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-A-EY.jpg",
+            "title": "Sleeve anchor with eye bolt",
+            "detail": [{
+                "img": "img/F-A-EY.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Sleeve anchor with eye bolt"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-EY"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-A-H.jpg",
+            "title": "Hit anchor",
+            "detail": [{
+                "img": "img/F-A-H.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hit anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-H"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 6,
+            "img": "img/F-A-S4.png",
+            "title": "4pcs shield anchor",
+            "detail": [{
+                "img": "img/F-A-S4.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "4pcs shield anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-S4"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 7,
+            "img": "img/F-A-SH.png",
+            "title": "Sleeve anchor with hex nut",
+            "detail": [{
+                "img": "img/F-A-SH.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Sleeve anchor with hex nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-SH"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 8,
+            "img": "img/F-A-SHF.png",
+            "title": "Sleeve anchor with hex flange nut",
+            "detail": [{
+                "img": "img/F-A-SHF.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Sleeve anchor with hex flange nut"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-SHF"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 9,
+            "img": "img/F-A-W.png",
+            "title": "Wedge anchor",
+            "detail": [{
+                "img": "img/F-A-W.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Wedge anchor"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-A-W"
+                },
+                {
+                    "key": "Size",
+                    "value": "M6 M8 M10 M12 M14 M16 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 5,
+        "name": "RIVET",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 25,
+            "img": "img/F-R-B.png",
+            "title": "Blind rivet",
+            "detail": [{
+                "img": "img/F-R-B.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Blind rivet"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-R-B"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-R-C.png",
+            "title": "Countersunk rivet",
+            "detail": [{
+                "img": "img/F-R-C.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Countersunk rivet"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-R-C"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-R-M.png",
+            "title": "Mushroom head rivet",
+            "detail": [{
+                "img": "img/F-R-M.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Mushroom head rivet"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-R-M"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-R-P.png",
+            "title": "Countersunk pop rivet",
+            "detail": [{
+                "img": "img/F-R-P.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Countersunk pop rivet"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-R-P"
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 6,
+        "name": "SEMS",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 5,
+            "img": "img/F-SE-HCKSF.jpg",
+            "title": "Hex socket knurled head cap bolt with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-HCKSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket knurled head cap bolt with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-HCKSF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN912"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-SE-HCSF.jpg",
+            "title": "Hex socket head cap bolt with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-HCSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex socket head cap bolt with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-HCSF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN912"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-SE-HSF.jpg",
+            "title": "Hex head bolt with flat and  spring washer",
+            "detail": [{
+                "img": "img/F-SE-HSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Hex head bolt with flat and  spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-HSF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN933"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-SE-PHSF.jpg",
+            "title": "Phillips indented hex head with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-PHSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips indented hex head with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-PHSF"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2,M2.5,M5,M6,M8,M10,M12,M14,M16,M18,M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-SE-PPSF.jpg",
+            "title": "Phillips pan head bolt with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-PPSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips pan head bolt with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-PPSF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "ANSI B18.6.3P"
+                },
+                {
+                    "key": "Size",
+                    "value": "2#-56, 4#-40, 6#-32, 8#-32, 10#-24, 12#-24, 1/4-20, 5/16-18, 3/8-16"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-SE-PPSS.jpg",
+            "title": "Phillips small pan head bolt with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-PPSS.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips small pan head bolt with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-PPSS"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M5 M6 M8 M10 M12 M14 M16 M18 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 6,
+            "img": "img/F-SE-PPSSF.jpg",
+            "title": "Phillips small pan head bolt with flat and spring washer",
+            "detail": [{
+                "img": "img/F-SE-PPSSF.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Phillips small pan head bolt with flat and spring washer"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-SE-PPSSF"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M5 M6 M8 M10 M12 M14 M16 M18 M20"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        }]
+    },
+    {
+        "class": "secondary",
+        "id": 7,
+        "name": "OTHER",
+        "img": "img/item-s.jpg",
+        "children": [{
+            "class": "last",
+            "id": 26,
+            "img": "img/F-ST-DEFC.jpg",
+            "title": "Double end stud-flat and cone",
+            "detail": [{
+                "img": "img/F-ST-DEFC.jpg",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Double end stud-flat and cone"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-ST-DEFC"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M3.5 M4 M5 M6 M8 M10…M100"
+                },
+                {
+                    "key": "Material",
+                    "value": "Carbon Steel-Yellow zinc plated"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 1,
+            "img": "img/F-ST-DEFF.png",
+            "title": "Double ends stud",
+            "detail": [{
+                "img": "img/F-ST-DEFF.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Double ends stud"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-ST-DEFF"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN835"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M3.5 M4 M5 M6 M8 M10…M100"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 2,
+            "img": "img/F-ST-F.png",
+            "title": "Stud-Full thread",
+            "detail": [{
+                "img": "img/F-ST-F.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Stud-Full thread"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-ST-F"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN975 DIN976"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M3.5 M4 M5 M6 M8 M10…M100"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 3,
+            "img": "img/F-ST-SC.png",
+            "title": "Self clinching stud",
+            "detail": [{
+                "img": "img/F-ST-SC.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Self clinching stud"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-ST-SC"
+                },
+                {
+                    "key": "",
+                    "value": ""
+                },
+                {
+                    "key": "Size",
+                    "value": "M1.6 M2 M2.5 M3 M4 M5 M6 M8 M10"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 4,
+            "img": "img/F-TI-W.png",
+            "title": "Self tapping wire thread insert",
+            "detail": [{
+                "img": "img/F-TI-W.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Self tapping wire thread insert"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-TI-WT"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN8140"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M3.5 M4 M5 M6 M8 M10…M100"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        },
+        {
+            "class": "last",
+            "id": 5,
+            "img": "img/F-TI-WT.png",
+            "title": "Wire thread insert",
+            "detail": [{
+                "img": "img/F-TI-WT.png",
+                "txt": [{
+                    "key": "Name",
+                    "value": "Wire thread insert"
+                },
+                {
+                    "key": "Item number",
+                    "value": "F-TI-W"
+                },
+                {
+                    "key": "Standard",
+                    "value": "DIN8140"
+                },
+                {
+                    "key": "Size",
+                    "value": "M2 M2.5 M3 M3.5 M4 M5 M6 M8 M10…M100"
+                },
+                {
+                    "key": "Material",
+                    "value": "Stainless steel, Carbon Steel"
+                }]
+            }]
+        }]
+    }]
+}];
