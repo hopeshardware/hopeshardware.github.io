@@ -6,7 +6,7 @@
         "class": "secondary",
         "id": 0,
         "name": "BOLT",
-        "img": "img/item-s.jpg",
+        "img": "img/Bolt-cover.png",
         "children": [{
             "class": "last",
             "id": 0,
@@ -809,7 +809,7 @@
         "class": "secondary",
         "id": 1,
         "name": "SCREW",
-        "img": "img/item-s.jpg",
+        "img": "img/Screw-cover.png",
         "children": [{
             "class": "last",
             "id": 25,
@@ -1513,7 +1513,7 @@
         "class": "secondary",
         "id": 2,
         "name": "NUT",
-        "img": "img/item-s.jpg",
+        "img": "img/Nut-cover.png",
         "children": [{
             "class": "last",
             "id": 0,
@@ -2228,7 +2228,7 @@
         "class": "secondary",
         "id": 3,
         "name": "WASHER",
-        "img": "img/item-s.jpg",
+        "img": "img/Washer-cover.png",
         "children": [{
             "class": "last",
             "id": 14,
@@ -2379,7 +2379,7 @@
         "class": "secondary",
         "id": 4,
         "name": "ANCHOR",
-        "img": "img/item-s.jpg",
+        "img": "img/Anchor-cover.png",
         "children": [{
             "class": "last",
             "id": 0,
@@ -2639,7 +2639,7 @@
         "class": "secondary",
         "id": 5,
         "name": "RIVET",
-        "img": "img/item-s.jpg",
+        "img": "img/Rivet-cover.png",
         "children": [{
             "class": "last",
             "id": 25,
@@ -2745,7 +2745,7 @@
         "class": "secondary",
         "id": 6,
         "name": "SEMS",
-        "img": "img/item-s.jpg",
+        "img": "img/SEMS-cover.png",
         "children": [{
             "class": "last",
             "id": 5,
@@ -2954,7 +2954,7 @@
         "class": "secondary",
         "id": 7,
         "name": "OTHER",
-        "img": "img/item-s.jpg",
+        "img": "img/Other-cover.png",
         "children": [{
             "class": "last",
             "id": 26,
