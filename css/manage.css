@@ -75,8 +75,11 @@ h1 {
   right: 0;
   top: 0;
 }
+.module1 .radios {
+  overflow: hidden;
+}
 .module1 .radios .input-control {
-  display: inline-block;
+  float: left;
 }
 .module1 .radios label {
   display: inline-block;
@@ -89,8 +92,27 @@ h1 {
   margin-right: 10px;
 }
 /************************** 一级分类 E ************************/
-/************************** 三级分类 S ************************/
-/************************** 三级分类 E ************************/
+/************************** 二级分类 S ************************/
+.level2 {
+  margin-bottom: 35px;
+}
+#level2-radios .input-control {
+  position: relative;
+  margin-bottom: 15px;
+}
+#level2-radios .input-control .upload {
+  position: absolute;
+  width: 80px;
+  opacity: 0;
+}
+#level2-radios .input-control img {
+  position: relative;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+}
+/************************** 二级分类 E ************************/
 /************************** 编辑产品 S ************************/
 .items {
   margin-left: -25px;

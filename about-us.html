@@ -4,6 +4,14 @@
 	<meta charset="utf-8">
 	<title>HOPES hardware</title>
 	<link rel="stylesheet" href="css/about-us.css">
+	<script>
+		var html=document.documentElement;
+		var viewport=html.clientWidth;
+		console.log(viewport);
+		console.log(html.offsetWidth);
+		console.log(window.innerWidth);
+		html.style.fontSize=viewport<=1200&&viewport/16+"px";
+	</script>
 </head>
 <body>
 	<!-- 头部 S -->
@@ -29,7 +37,9 @@
 	<!-- PATH S -->
 	<div class="path">
 		<div id="path-body">
-			ABOUT US
+			<a href="index.html">HOME</a>
+			<span class="icon-arrow"></span>
+			<span class="blue">ABOUT US</span>
 		</div>
 	</div>
 	<!-- PATH E -->

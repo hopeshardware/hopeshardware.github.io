@@ -1,6 +1,12 @@
+html{
+	position: relative;
+	height:100%;
+	overflow: hidden;
+	font-size:75px;
+}
 body{
-	min-width:1200px;
-
+	height:100%;
+	overflow-y:scroll;
 	background:#e4f0f9;
 }
 /****************头部 S***************/
@@ -10,7 +16,7 @@ body{
 .header-body{
 	margin:auto;
 
-	width:1200px;
+	max-width:1200px;
 	height:100px;
 	>div{
 		height:100%;
@@ -23,6 +29,11 @@ body{
 			width:245px;
 			height:50px;
 			vertical-align: middle;
+			img{
+				display: block;
+				max-width:100%;
+				max-height:100%;
+			}
 		}
 	}
 	.about-us{
@@ -30,6 +41,7 @@ body{
 		a{
 			font-size:16px;
 			color:#363636;
+			vertical-align: middle;
 		}
 	}
 }
@@ -41,7 +53,7 @@ body{
 }
 #nav-body{
 	margin:auto;
-	width:1200px;
+	max-width:1200px;
 	height:50px;
 
 	text-align:center;
@@ -50,7 +62,7 @@ body{
 	li{
 		display: inline-block;
 		a{
-			padding:0 38px;
+			padding:0 3.1667%;
 			font-size:18px;
 			color:#d4d4d4;
 			text-transform: uppercase;
@@ -68,7 +80,7 @@ body{
 /****************版权声明 S***************/
 .copyright{
 	margin:auto;
-	width:1200px;
+	max-width:1200px;
 }
 .copyright-body{
 	text-align:right;
@@ -76,3 +88,53 @@ body{
 	color:#888;
 }
 /****************版权声明 E***************/
+
+/****************@media 992-1200 S***************/
+@media(max-width:1200px){
+	.header-body,#nav-body,.copyright{
+		width:15rem;
+	}
+}
+/****************@media 992-1200 E***************/
+
+/****************@media 0-768 S***************/
+@media(max-width:768px){
+	.header-body{
+		height:2.083333rem;
+		>div{
+			line-height: 2.083333rem;
+		}
+		.logo{
+			a{
+				width:5.104167rem;
+				height:1.041667rem;
+			}
+		}
+		.about-us{
+			a{
+				font-size:14px;
+			}
+		}
+	}
+
+	.nav{
+		background:#1c6aa0;
+	}
+	#nav-body{
+		height:40px;
+
+		line-height:40px;
+		li{
+			a{
+				font-size:14px;
+			}
+		}
+	}
+
+	.copyright-body{
+		font-size:0.291667rem;
+	}
+}
+
+
+/****************@media 0-768 E***************/

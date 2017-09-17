@@ -16,3 +16,4 @@ console.log("navId:"+navId);
 // 加载导航
 appendTpl(data,"nav-body",navTplStr);
 document.querySelectorAll("#nav-body li a")[navId].setAttribute("class","active");
+

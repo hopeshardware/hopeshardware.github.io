@@ -2,9 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<title>HOPES hardware</title>
 	<link rel="stylesheet" href="css/index.css">
 </head>
+<script>
+	var html=document.documentElement;
+	var viewport=html.clientWidth;
+	console.log(viewport);
+	console.log(html.offsetWidth);
+	console.log(window.innerWidth);
+	html.style.fontSize=viewport<1200&&viewport/16+"px";
+</script>
 <body>
 	<!-- 头部 S -->
 	<div class="header">

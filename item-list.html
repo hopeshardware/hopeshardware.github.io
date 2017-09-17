@@ -4,6 +4,14 @@
 	<meta charset="utf-8">
 	<title>HOPES hardware</title>
 	<link rel="stylesheet" href="css/item-list.css">
+	<script>
+		var html=document.documentElement;
+		var viewport=html.clientWidth;
+		console.log(viewport);
+		console.log(html.offsetWidth);
+		console.log(window.innerWidth);
+		html.style.fontSize=viewport<=1200&&viewport/16+"px";
+	</script>
 </head>
 <body>
 	<!-- 头部 S -->

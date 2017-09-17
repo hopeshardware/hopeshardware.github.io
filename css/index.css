@@ -29,8 +29,15 @@ ol {
 }
 /*********************CSS-REPO-S************************/
 /*********************CSS-REPO-E************************/
+html {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  font-size: 75px;
+}
 body {
-  min-width: 1200px;
+  height: 100%;
+  overflow-y: scroll;
   background: #e4f0f9;
 }
 /****************头部 S***************/
@@ -39,7 +46,7 @@ body {
 }
 .header-body {
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
   height: 100px;
 }
 .header-body > div {
@@ -55,12 +62,18 @@ body {
   height: 50px;
   vertical-align: middle;
 }
+.header-body .logo a img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
 .header-body .about-us {
   float: right;
 }
 .header-body .about-us a {
   font-size: 16px;
   color: #363636;
+  vertical-align: middle;
 }
 /****************头部 E***************/
 /****************导航 S***************/
@@ -69,7 +82,7 @@ body {
 }
 #nav-body {
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
   height: 50px;
   text-align: center;
   line-height: 50px;
@@ -79,7 +92,7 @@ body {
   display: inline-block;
 }
 #nav-body li a {
-  padding: 0 38px;
+  padding: 0 3.1667%;
   font-size: 18px;
   color: #d4d4d4;
   text-transform: uppercase;
@@ -94,7 +107,7 @@ body {
 /****************版权声明 S***************/
 .copyright {
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 .copyright-body {
   text-align: right;
@@ -102,13 +115,54 @@ body {
   color: #888;
 }
 /****************版权声明 E***************/
+/****************@media 992-1200 S***************/
+@media (max-width: 1200px) {
+  .header-body,
+  #nav-body,
+  .copyright {
+    width: 15rem;
+  }
+}
+/****************@media 992-1200 E***************/
+/****************@media 0-768 S***************/
+@media (max-width: 768px) {
+  .header-body {
+    height: 2.083333rem;
+  }
+  .header-body > div {
+    line-height: 2.083333rem;
+  }
+  .header-body .logo a {
+    width: 5.104167rem;
+    height: 1.041667rem;
+  }
+  .header-body .about-us a {
+    font-size: 14px;
+  }
+  .nav {
+    background: #1c6aa0;
+  }
+  #nav-body {
+    height: 40px;
+    line-height: 40px;
+  }
+  #nav-body li a {
+    font-size: 14px;
+  }
+  .copyright-body {
+    font-size: 0.291667rem;
+  }
+}
+/****************@media 0-768 E***************/
 /****************main S***************/
 .main {
   margin: 50px auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 .main-body {
-  margin-left: -11px;
+  position: relative;
+  width: 1222px;
+  left: -11px;
 }
 .main-body:after {
   content: "";
@@ -118,7 +172,7 @@ body {
 .main-body li {
   float: left;
   margin: 12px 10px;
-  width: 280px;
+  width: 285.5px;
   height: 211px;
   background: #fff;
 }
@@ -133,10 +187,9 @@ body {
 }
 .main-body a img {
   position: absolute;
-  bottom: 20px;
-  right: 30px;
-  width: 156px;
-  height: 156px;
+  bottom: 9.5%;
+  right: 10.7%;
+  width: 55.7%;
 }
 .main-body a span {
   position: absolute;
@@ -158,3 +211,58 @@ body {
   background: url(../img/gdt.jpg);
 }
 /****************main E***************/
+/****************@media 992-1200 S***************/
+@media (max-width: 1200px) {
+  html {
+    font-size: 62px;
+  }
+  .main {
+    width: 15rem;
+  }
+  .main .main-body {
+    left: -0.16rem;
+    width: 15.255555rem;
+  }
+  .main .main-body li {
+    margin: 0.16rem 0.133333rem;
+    width: 3.547rem;
+    height: 2.672rem;
+  }
+}
+/****************@media 992-1200 E***************/
+/****************@media 768-992 S***************/
+@media (max-width: 992px) {
+  html {
+    font-size: 48px;
+  }
+  .main .main-body li {
+    width: 4.818rem;
+    height: 3.63rem;
+  }
+}
+/****************@media 768-992 E***************/
+/****************@media 0-768 S***************/
+@media (max-width: 768px) {
+  html {
+    font-size: 30px;
+  }
+  .main {
+    margin: 1.041667rem auto;
+  }
+  .main .main-body li {
+    width: 7.361rem;
+    height: 5.547rem;
+  }
+  .main .main-body a span {
+    top: 0.416667rem;
+    left: 0.416667rem;
+    padding-bottom: 0.104167rem;
+    font-size: 0.708333rem;
+  }
+  .main .main-body a span:before {
+    left: 0.041667rem;
+    width: 0.520833rem;
+    height: 0.145833rem;
+  }
+}
+/****************@media 0-768 E***************/

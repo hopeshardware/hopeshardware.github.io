@@ -4,16 +4,18 @@
 /****************main S***************/
 .main{
 	margin:50px auto;
-	width:1200px;
+	max-width:1200px;
 }
 .main-body{
-	margin-left:-11px;
+	position: relative;
+	width:1222px;
+	left:-11px;
 	.clearfix;
 	li{
 		float:left;
 		margin:12px 10px;
 
-		width:280px;
+		width:285.5px;
 		height:211px;
 		background:#fff;
 		&:hover{
@@ -27,10 +29,9 @@
 		height:100%;
 		img{
 			position:absolute;
-			bottom:20px;
-			right:30px;
-			width:156px;
-			height:156px;
+			bottom:9.5%;
+			right:10.7%;
+			width:55.7%;
 		}
 		span{
 			position:absolute;
@@ -54,6 +55,74 @@
 	}
 }
 /****************main E***************/
+
+/****************@media 992-1200 S***************/
+@media(max-width:1200px){
+	html{
+		font-size:62px;
+	}
+	.main{
+		width:15rem;
+		.main-body{
+			left:-0.16rem;
+			width:15.255555rem;
+			li{
+				margin:0.16rem 0.133333rem;
+
+				width:3.547rem;
+				height:2.672rem;
+			}
+		}
+	}
+}
+/****************@media 992-1200 E***************/
+
+/****************@media 768-992 S***************/
+@media(max-width:992px){
+	html{
+		font-size:48px;
+	}
+	.main{
+		.main-body{
+			li{
+				width:4.818rem;
+				height:3.63rem;
+			}
+		}
+	}
+}
+/****************@media 768-992 E***************/
+
+/****************@media 0-768 S***************/
+@media(max-width:768px){
+	html{
+		font-size:30px;
+	}
+	.main{
+		margin:1.041667rem auto;
+		.main-body{
+			li{
+				width:7.361rem;
+				height:5.547rem;
+			}
+			a{
+				span{
+					top:0.416667rem;
+					left:0.416667rem;
+					padding-bottom:0.104167rem;
+					font-size:0.708333rem;
+					&:before{
+						left:0.041667rem;
+						width:0.520833rem;
+						height:0.145833rem;
+					}
+				}
+			}
+		}
+	}
+}
+/****************@media 0-768 E***************/
+
 
 
 

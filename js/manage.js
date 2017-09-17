@@ -1,7 +1,7 @@
-	var level1Tpl="<div class='input-control'><input type='radio' value={{id}} name='level1' id='level1-option{{id}}'><label for='level1-option{{id}}' data-id={{id}} contenteditable='true'>{{name}}</label></div>";
-	var level2Tpl="<div class='input-control'><input type='radio' value={{id}} name='level2' id='level2-option{{id}}'><label for='level2-option{{id}}' data-id={{id}} contenteditable='true'>{{name}}</label></div>";
-	var level3Tpl="<div class='input-control'><input type='radio' value={{id}} name='level3' id='level3-option{{id}}'><label for='level3-option{{id}}' data-id={{id}} contenteditable='true'>{{name}}</label></div>";
-	var itemTpl="<div class='item'><div class='img'><img src='{{img}}'></div><div class='btns' data-id={{id}}><div class='edit'>编辑</div><div class='delete'>删除</div></div></div>";
+	var level1Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='radio' value={{id}} name='level1' id='level1-option{{id}}'><label for='level1-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label></div>";
+	var level2Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='file' id='upload{{id}}' class='upload'><label for='upload{{id}}'><img src={{img}}></label><br><input type='radio' value={{id}} name='level2' id='level2-option{{id}}'><label for='level2-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label></div>";
+	var level3Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='radio' value={{id}} name='level3' id='level3-option{{id}}'><label for='level3-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label></div>";
+	var itemTpl="<div class='item' draggable='true'><div class='img'><img src='{{img}}' data-id={{id}}></div><div class='btns' data-id={{id}}><div class='edit'>编辑</div><div class='delete'>删除</div></div></div>";
 	var idArray=[0,0,0];
 	var hasLevel1=data.length!==0;
 
@@ -15,7 +15,7 @@
 	var itemData=hasLevel2&&(hasLevel3?level3Data[idArray[2]].children:level2Data[idArray[1]].children);
 	var hasItem=itemData.length!==0;
 	
-	var deleteBtns,editBtns,items;
+	var deleteBtns,editBtns;
 	var popOut=document.querySelector(".detail-cover-bg");
 	var closeBtn=document.querySelector(".detail-cover-bg .icon-close");
 	var fileBtn=document.querySelector(".detail-cover .img-file input");
@@ -34,13 +34,110 @@
 	if(hasLevel1){
 		loadContent();
 	}
+	function loadLevel1(){
+		appendTpl(data,"level1-radios",level1Tpl);
+		document.querySelectorAll("#level1-radios input")[idArray[0]].setAttribute("checked","checked");
+		// 绑定onchange更新列表
+		updateList("level1-radios",idArray,0);
+
+		// 绑定ondrag排序
+		orderItem("#level1-radios .input-control",data);
+	}
+
+	function loadLevel2(){
+		appendTpl(level2Data,"level2-radios",level2Tpl);
+		document.querySelectorAll("#level2-radios input[type='radio']")[idArray[1]].setAttribute("checked","checked");
+		updateList("level2-radios",idArray,1);
+		
+		//绑定click确认新增产品
+		document.querySelector("#detail-cover-body .confirm-btn").onclick=function(){
+			var items=document.querySelectorAll("#items .item");
+			var txts=document.querySelectorAll(".input-group");
+			var id=items.length;
+			// console.log(id);
+			var img=fileImg.src.split("/hopeshardware.github.io/")[1];
+			var title=document.getElementById("title").innerText;
+			var txt=[];
+			var tplStr="<div class='img'><img src='"+img+"'></div><div class='btns'data-id="+id+"><div class='edit'>编辑</div><div class='delete'>删除</div></div>";
+			txts=Array.prototype.slice.call(txts);
+			txts.map(function(current){
+				values=current.querySelectorAll(".title-input");
+				txt.push({
+					"key":values[0].innerText,
+					"value":values[1].innerText
+				});
+			});
+			var obj={
+				"class":"last",
+				"id":id,
+				"img":img,
+				"title":title,
+				"detail":[{
+					"img":img,
+					"txt":txt
+				}]
+			};
+			popOut.style.display="none";
+			// console.log(data);
+			addItem(itemsBox,tplStr,obj,itemData,"item");
+		}
+
+		// 绑定click显示产品新增弹窗
+		document.getElementById("add-item").onclick=function(){
+			popOut.style.display="block";
+		}
+
+		// 绑定click显示编辑产品弹窗
+		// editBtns=Array.prototype.slice.call(editBtns);
+		// editBtns.map(function(current){
+		// 	current.onclick=function(){
+		// 		popOut.style.display="block";
+		// 	}
+		// })
+
+		// 绑定click关闭弹窗
+		closeBtn.onclick=function(){
+			popOut.style.display="none";
+		}
+
+		// 绑定ondrag排序
+		orderItem("#level2-radios .input-control",level2Data);
+	}
+
+	function loadLevel3(){
+		appendTpl(level3Data,"level3-radios",level3Tpl);
+		document.querySelectorAll("#level3-radios input")[idArray[2]].setAttribute("checked","checked");
+		updateList("level3-radios",idArray,2);
+
+		// 绑定ondrag排序
+		orderItem("#level3-radios .input-control",level3Data);
+	}
+
+	function loadItem(){
+		appendTpl(itemData,"items",itemTpl);
+		// console.log(items.length);
+		deleteBtns=document.querySelectorAll("#items .delete");
+		editBtns=document.querySelectorAll("#items .edit");
+
+		// 绑定ondrag排序
+		orderItem("#items .item",itemData);
+
+		// 绑定click删除产品
+		deleteBtns=Array.prototype.slice(deleteBtns);
+		deleteBtns.map(function(current){
+			current.onclick=function(){
+				// 待完成
+			}
+		})
+	}
+
 	function loadContent(){
 		// console.log(1);
 		hasLevel1=data.length!==0;
 
 		hasLevel2=hasLevel1&&(data[idArray[0]].children.length!==0);
 		level2Data=hasLevel1&&data[idArray[0]].children;
-		console.log(level2Data);
+		// console.log(level2Data);
 
 		hasLevel3=hasLevel2&&(level2Data[idArray[1]].children.length!==0)&&(level2Data[idArray[1]].children[idArray[2]].class==="third");
 		level3Data=hasLevel2&&level2Data[idArray[1]].children;
@@ -50,127 +147,77 @@
 		hasItem=itemData.length!==0;
 
 		// 加载一级分类
-		appendTpl(data,"level1-radios",level1Tpl);
-		document.querySelectorAll("#level1-radios input")[idArray[0]].setAttribute("checked","checked");
-		// 绑定onchange更新列表
-		updateList("level1-radios",idArray,0);
+		loadLevel1();
 		
 
 		// 加载二级分类
 		if(hasLevel2){
-
-			appendTpl(level2Data,"level2-radios",level2Tpl);
-			document.querySelectorAll("#level2-radios input")[idArray[1]].setAttribute("checked","checked");
-			updateList("level2-radios",idArray,1);
-
-			items=document.querySelectorAll("#items .item");
-			//绑定click新增产品
-			document.querySelector("#detail-cover-body .confirm-btn").onclick=function(){
-				console.log(items);
-				var txts=document.querySelectorAll(".input-group");
-				var id=items.length;
-				var img=fileImg.src.split("/hopeshardware.github.io/")[1];
-				var title=document.getElementById("title").innerText;
-				var txt=[];
-				var tplStr="<div class='img'><img src='"+img+"'></div><div class='btns'data-id="+id+"><div class='edit'>编辑</div><div class='delete'>删除</div></div>";
-				txts=Array.prototype.slice.call(txts);
-				txts.map(function(current){
-					values=current.querySelectorAll(".title-input");
-					txt.push({
-						"key":values[0].innerText,
-						"value":values[1].innerText
-					});
-				});
-				var obj={
-					"class":"last",
-					"id":id,
-					"img":img,
-					"title":title,
-					"detail":[{
-						"img":img,
-						"txt":txt
-					}]
-				};
-				popOut.style.display="none";
-				// console.log(data);
-				addItem(itemsBox,tplStr,obj,itemData,"item");
-			}
-
-			// 绑定click显示产品新增弹窗
-			document.getElementById("add-item").onclick=function(){
-				popOut.style.display="block";
-			}
-
-			// 绑定click显示编辑产品弹窗
-			// editBtns=Array.prototype.slice.call(editBtns);
-			// editBtns.map(function(current){
-			// 	current.onclick=function(){
-			// 		popOut.style.display="block";
-			// 	}
-			// })
-
-			// 绑定click关闭弹窗
-			closeBtn.onclick=function(){
-				popOut.style.display="none";
-			}
+			loadLevel2();
 		}else{
 			document.getElementById("level2-radios").innerHTML="";
 		}
 		
 		// 加载三级分类
 		if(hasLevel3){
-			appendTpl(level3Data,"level3-radios",level3Tpl);
-			document.querySelectorAll("#level3-radios input")[idArray[2]].setAttribute("checked","checked");
-			updateList("level3-radios",idArray,2);
-
+			loadLevel3();
 		}else{
 			document.getElementById("level3-radios").innerHTML="";
 		}
 
 		// 加载产品列表
 		if(hasItem){
-			appendTpl(itemData,"items",itemTpl);
-			// console.log(items.length);
-			deleteBtns=document.querySelectorAll("#items .delete");
-			editBtns=document.querySelectorAll("#items .edit");
-
-			// 绑定click删除产品
-			deleteBtns=Array.prototype.slice(deleteBtns);
-			deleteBtns.map(function(current){
-				current.onclick=function(){
-					// 待完成
-				}
-			})
-
-			
+			loadItem();
 		}else{
 			document.getElementById("items").innerHTML="";
 		}
 
-		// 绑定onblur编辑分类名
-		var labels=document.getElementsByTagName("label");
+		// 绑定双击可编辑，绑定onblur编辑分类名
+		var labels=document.getElementsByClassName("radio-label");
 		labels=Array.prototype.slice.call(labels);
 		labels.map(function(current){
+			current.addEventListener("dblclick",function(){
+				// console.log("双击事件");
+				this.setAttribute("contenteditable","true");
+				this.focus();
+			})
 			current.onblur=function(){
 				editCategoryName(this);
+				// console.log(this.innerText);
 			}
 		})
 	}
 
-	// 绑定radio onchange 更新级联列表
+	// 绑定input
 	function updateList(domId,idArray,i){
 		var level=document.getElementById(domId);
 		var inputs=level.querySelectorAll("input");
 		inputs=Array.prototype.slice.call(inputs);
 		inputs.map(function(current){
-			current.onchange=function(){
-				var id=level.querySelector("input:checked").getAttribute("value");
-				console.log(idArray[i]+":"+id);
-				if(!(idArray[i]==id)){
-					idArray[i]=id;
-					loadContent();
+			// 绑定radio onchange更新级联列表
+			if(current.type==="radio"){
+				current.onchange=function(){
+					var id=level.querySelector("input:checked").getAttribute("value");
+					// console.log(idArray[i]+":"+id);
+					if(!(idArray[i]==id)){
+						idArray[i]=id;
+						loadContent();
+					}
+					// console.log(idArray[i])
 				}
-				console.log(idArray[i])
+			}
+			
+			// 绑定file onchange预览图片
+			if(current.type==="file"){
+				current.onchange=function(e){
+					var id=this.parentNode.getAttribute("data-id");
+					// console.log(id);
+					var path=e.target.value;
+					var imgName=path.split("\\fakepath\\")[1];
+					path="img/cover/"+imgName;
+					level2Data[id].img=path;
+					// console.log(this.nextElementSibling);
+					this.nextElementSibling.querySelector("img").src=path;
+				}
 			}
 		})
 	}
@@ -200,7 +247,7 @@
 		btns.map(function(btn){
 			btn.onclick=function(){
 				var levelId=btn.getAttribute("data-id");
-				// console.log(levelId);
+				console.log(levelId);
 				var currentList=lists[levelId];
 				// console.log(currentList);
 				var id=currentList.querySelectorAll(".input-control").length;
@@ -210,39 +257,39 @@
 					obj={
 						"class":"primary",
 						"id":id,
-						"name":"category-name",
+						"name":"name",
 						"children":[]
 					};
-					tplStr="<input type='radio' value="+id+" name='level1' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>category-name</label>";
+					tplStr="<input type='radio' value="+id+" name='level1' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
 				}else if(levelId==1){
 					currentData=level2Data;
-					console.log(currentData);
+					// console.log(currentData);
 					obj={
 						"class":"secondary",
 						"id":id,
-						"name":"category-name",
-						"img":"img/item-s.jpg",
+						"name":"name",
+						"img":"img/default.jpg",
 						"children":[]
 					};
-					tplStr="<input type='radio' value="+id+" name='level2' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>category-name</label>";
+					tplStr="<input type='radio' value="+id+" name='level2' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
 				}else if(levelId==2){
 					currentData=level3Data;
 					obj={
 						"class":"third",
 						"id":id,
-						"name":"category-name",
+						"name":"name",
 						"children":[]
 					};
-					tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>category-name</label>";
+					tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
 				}else if(levelId==3){
 					currentData=itemData;
 					obj={
 						"class":"third",
 						"id":id,
-						"name":"category-name",
+						"name":"name",
 						"children":[]
 					};
-					tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>category-name</label>";
+					tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
 				};
 				addItem(currentList,tplStr,obj,currentData,"input-control");
 			}
@@ -265,7 +312,7 @@
 
 		// 保存到数据
 		currentData.push(obj);
-		// console.log(data);
+		console.log(data);
 		loadContent();
 	}
 
@@ -290,12 +337,17 @@
 	}
 
 	// 绑定ondrag排序
-	function orderItem(){
-		var items;
+	// orderItem(items,itemData);
+	function orderItem(selector,data){
+		// console.log(items);
+		// console.log(itemData);
+		items=document.querySelectorAll(selector);
 		items=Array.prototype.slice.call(items);
 		items.map(function(item){
-			item.ondragstart=function(){
-				var id=item.getAttribute("data-id");
+			item.ondragstart=function(e){
+				// console.log(e.target);
+				var id=e.target.getAttribute("data-id")-0;
+				// console.log(id);
 				e.dataTransfer.setData("id",id);
 			}
 			item.ondragover=function(e){
@@ -303,7 +355,33 @@
 			}
 			item.ondrop=function(e){
 				e.preventDefault();
-				var id=e.dataTransfer.getData("id")
+				var min,max,j;
+				var dropId=e.target.getAttribute("data-id")-0;
+				// console.log(dropId);
+				var dragId=e.dataTransfer.getData("id")-0;
+				// console.log(dragId);
+				data[dragId].id=dropId;
+				var dragItem=data.splice(dragId,1);
+				// console.log(dragItem);
+				data.splice(dropId,0,dragItem[0]);
+				// console.log(data);
+				if(dragId>dropId){
+					max=dragId;
+					min=dropId+1;
+					j=1;
+				}else{
+					max=dropId-1;
+					min=dragId;
+					j=-1;
+				}
+				// console.log(min);
+				// console.log(max);
+				for(var i=min;i<=max;i++){
+					data[i].id+=j;
+					// console.log(data[i].id);
+				}
+				// console.log(data);
+				loadContent();
 			}
 		})
 	}
