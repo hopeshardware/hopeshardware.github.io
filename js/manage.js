@@ -212,6 +212,7 @@
 					var id=this.parentNode.getAttribute("data-id");
 					// console.log(id);
 					var path=e.target.value;
+
 					var imgName=path.split("\\fakepath\\")[1];
 					path="img/cover/"+imgName;
 					level2Data[id].img=path;
@@ -226,6 +227,7 @@
 	//预览fileupload的图片
 	fileBtn.onchange=function(e){
 		var path=e.target.value;
+		// console.log(path);
 		var imgName=path.split("\\fakepath\\")[1];
 		path="img/"+imgName;
 		fileImg.setAttribute("src",path);

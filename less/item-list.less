@@ -156,7 +156,6 @@
 		.box-sizing;
 		padding-right:40px;
 		width:50%;
-		line-height:475px;
 		text-align: center;
 		img{
 			vertical-align: middle;
@@ -189,7 +188,6 @@
 		background: url(../img/X.png);
 		cursor:pointer;
 	}
-	
 }
 /****************遮罩层 E***************/
 
@@ -233,6 +231,18 @@
 }
 /****************@media 768-992 E***************/
 
+/****************@media 768-900 S***************/
+@media(max-width:900px){
+	.detail-cover{
+		padding:0.892857rem;
+		width:90%;
+		.item-img{
+			padding-right:0.714286rem;
+		}
+	}
+}
+/****************@media 768-900 E***************/
+
 /****************@media 0-768 S***************/
 @media(max-width:768px){
 	html{
@@ -240,17 +250,35 @@
 	}
 	.main{
 		li{
-			// width:4.289rem;
-			// a{
-			// 	height:3.86rem;
-			// }
 			p{
 				font-size:0.291667rem;
 			}
 		}
 	}
+
+	.detail-cover{
+		padding:1.25rem;
+		width:95%;
+		.item-img{
+			padding-right:0;
+			width:100%;
+		}
+		#item-descrip{
+			width:100%;
+			font-size:0.291667rem;
+			ul{
+				margin-bottom:0.416667rem;
+				line-height:0.416667rem;
+				li:first-child{
+					margin-bottom:0.166667rem;
+				}
+			}
+		}
+	}
 }
 /****************@media 0-768 E***************/
+
+
 
 
 
