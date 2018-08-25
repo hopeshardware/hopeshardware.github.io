@@ -130,6 +130,7 @@ body {
   #nav-body {
     display: none;
     position: absolute;
+    z-index: 2;
     padding: 0.208333rem 0;
     width: auto;
     height: auto;
@@ -148,8 +149,13 @@ body {
     font-size: 0.375rem;
     color: #363636;
   }
+  #nav-body li a:hover {
+    font-weight: bold;
+    color: #1c6aa0;
+  }
   #nav-body li .active {
-    color: #363636;
+    font-weight: bold;
+    color: #1c6aa0;
   }
   .copyright-body {
     font-size: 0.291667rem;

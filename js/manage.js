@@ -335,7 +335,7 @@
 
 	// 绑定click提交数据
 	document.getElementsByClassName("submit-btn")[0].onclick=function(){
-		document.body.innerHTML=JSON.stringify(data);
+		document.body.innerHTML='var data='+JSON.stringify(data);
 	}
 
 	// 绑定ondrag排序
