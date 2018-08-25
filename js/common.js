@@ -20,9 +20,10 @@ document.querySelectorAll("#nav-body li a")[navId].setAttribute("class","active"
 // 移动端汉堡菜单
 var menu=document.getElementsByClassName("menu")[0];
 var navBody=document.getElementById("nav-body");
-navBody.style.display='none'
+var navBodyStyle=navBody.currentStyle||getComputedStyle(navBody)
 menu.onclick=function(){
-	if(navBody.style.display==='none'){
+
+	if(navBodyStyle.display==='none'||navBody.style.display==='none'){
 		navBody.style.display='block'
 	}else{
 		navBody.style.display='none'
