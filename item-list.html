@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>HOPES hardware</title><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	<link rel="stylesheet" href="../css/item-list.css">
+	<link rel="stylesheet" href="css/item-list.css">
 	<script>
 		var html=document.documentElement;
 		var viewport=html.clientWidth;
@@ -18,11 +18,11 @@
 	<div class="header">
 		<div class="header-body">
 			<div class="logo">
-				<a href="../index"><img src="../img/logo.png"></a>
+				<a href="index"><img src="img/logo.png"></a>
 			</div>
-			<div class="menu"><img src="../img/menu.png" alt=""></div>
+			<div class="menu"><img src="img/menu.png" alt=""></div>
 			<div class="about-us">
-				<a href="../about-us">ABOUT US</a>
+				<a href="about-us">ABOUT US</a>
 			</div>
 		</div>
 	</div>
@@ -73,13 +73,13 @@
 	</div>
 	<!-- 版权声明 E -->
 
-	<script src="../js/data.json"></script>
-	<script src="../js/getData.js"></script>
-	<script src="../js/common.js"></script>
+	<script src="js/data.json"></script>
+	<script src="js/getData.js"></script>
+	<script src="js/common.js"></script>
 	<script>
 		var tabTplStr="<li data-id='{{id}}'><a href='#{{id}}'>{{name}}</a></li>";
-		var itemTplStr="<li><a href='javascript:' data-id='{{id}}'><img src='../{{img}}'></a><p>{{title}}</p></li>";
-		var detailImgTplStr="<dt class='item-img'><img src='../{{img}}'></dt>";
+		var itemTplStr="<li><a href='javascript:' data-id='{{id}}'><img src='{{img}}'></a><p>{{title}}</p></li>";
+		var detailImgTplStr="<dt class='item-img'><img src='{{img}}'></dt>";
 		var detailTxtTplStr="<ul><li>{{key}}</li><li>{{value}}</li></ul>";
 		var foldId=searchStrObj.foldId===undefined?0:searchStrObj.foldId;
 		var tabId=location.hash?location.hash.substr(1):0;
