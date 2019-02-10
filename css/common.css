@@ -86,7 +86,8 @@ body {
 }
 #nav-body li .active {
   color: #fff;
-  font-weight: bold;
+  /*font-weight: bold;*/
+  text-decoration: underline;
 }
 /****************导航 E***************/
 /****************版权声明 S***************/
@@ -128,9 +129,26 @@ body {
     font-size: 14px;
   }
   .header-body .menu {
-    display: block;
+    /*display: block;*/
+  }
+
+  .nav {
+    background: #fff;
   }
   #nav-body {
+     height: auto; 
+    line-height: 3;
+  }
+  #nav-body li a{
+    font-size:14px;
+    color: #949ba0;
+  }
+  #nav-body li .active {
+    color: #2570a4;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+/*  #nav-body {
     display: none;
     position: absolute;
     z-index: 2;
@@ -159,7 +177,7 @@ body {
   #nav-body li .active {
     font-weight: bold;
     color: #1c6aa0;
-  }
+  }*/
   .copyright-body {
     font-size: 0.291667rem;
   }
