@@ -115,7 +115,7 @@
 
 	function loadItem(){
 		appendTpl(itemData,"items",itemTpl);
-		// console.log(items.length);
+		console.log(items.length);
 		deleteBtns=document.querySelectorAll("#items .delete");
 		editBtns=document.querySelectorAll("#items .edit");
 
@@ -124,9 +124,12 @@
 
 		// 绑定click删除产品
 		deleteBtns=Array.prototype.slice(deleteBtns);
-		deleteBtns.map(function(current){
+		deleteBtns.map(function(current,i){
 			current.onclick=function(){
+				console.log(111)
 				// 待完成
+				// itemData.splice(i,1)
+				// loadContent()
 			}
 		})
 	}

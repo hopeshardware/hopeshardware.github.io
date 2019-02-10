@@ -135,7 +135,7 @@ h1 {
   height: 155px;
 }
 .items .item .btns {
-  display: none;
+  /*display: none;*/
 }
 .items .item .btns:after {
   content: "";
