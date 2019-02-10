@@ -55,7 +55,7 @@
 	<script src="js/getData.js"></script>
 	<script src="js/common.js"></script>
 	<script>
-		var foldTplStr="<li><a href='item-list?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
+		var foldTplStr="<li class='{{hidden}}'><a href='item-list?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
 		
 		data=data[navId].children;
 		appendTpl(data,"main-body",foldTplStr);

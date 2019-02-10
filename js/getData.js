@@ -10,14 +10,14 @@ function appendTpl(data,id,tplStr,loadChild){
 
 // 替换数据
 function replaceTpl(data,tplStr,index){
-var reg=/{{[\w]*}}/g;
-var keys=tplStr.match(reg);
-keys=keys.join("").slice(2,-2).split("}}{{");
-for(var i=0;i<keys.length;i++){
-	var keyStr="{{"+keys[i]+"}}";
-	tplStr=tplStr.replace(keyStr,data[index][keys[i]]);
-}
-return tplStr;
+	var reg=/{{[\w]*}}/g;
+	var keys=tplStr.match(reg);
+	keys=keys.join("").slice(2,-2).split("}}{{");
+	for(var i=0;i<keys.length;i++){
+		var keyStr="{{"+keys[i]+"}}";
+		tplStr=tplStr.replace(keyStr,data[index][keys[i]]);
+	}
+	return tplStr;
 }
 
 // 循环tpl

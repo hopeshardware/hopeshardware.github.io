@@ -96,7 +96,7 @@ h1 {
 .level2 {
   margin-bottom: 35px;
 }
-#level2-radios .input-control {
+.input-control {
   position: relative;
   margin-bottom: 15px;
 }

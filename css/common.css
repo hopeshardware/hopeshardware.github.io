@@ -9,6 +9,9 @@ body {
   overflow-y: scroll;
   background: #e4f0f9;
 }
+.hidden{
+  display: none !important;
+}
 /****************头部 S***************/
 .header {
   background: #fff;
