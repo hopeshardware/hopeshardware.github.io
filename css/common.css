@@ -143,6 +143,9 @@ body {
     font-size:14px;
     color: #949ba0;
   }
+  #nav-body li a:hover {
+    color: #2570a4;
+  }
   #nav-body li .active {
     color: #2570a4;
     font-weight: normal;
