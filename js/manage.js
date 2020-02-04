@@ -1,22 +1,22 @@
-	var level1Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='radio' value={{id}} name='level1' id='level1-option{{id}}'><label for='level1-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level1-hidden{{id}}' data-hidden='{{hidden}}'><label for='level1-hidden{{id}}' data-id={{id}}>隐藏</label></div>";
-	var level2Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='file' id='upload{{id}}' class='upload'><label for='upload{{id}}'><img src='{{img}}'></label><br><input type='radio' value={{id}} name='level2' id='level2-option{{id}}'><label for='level2-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level2-hidden{{id}}' data-hidden='{{hidden}}'><label for='level2-hidden{{id}}' data-id={{id}}>隐藏</label></div>";
-	var level3Tpl="<div class='input-control' data-id={{id}} draggable='true'><input type='radio' value={{id}} name='level3' id='level3-option{{id}}'><label for='level3-option{{id}}' class='radio-label' data-id={{id}}>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level3-hidden{{id}}' data-hidden='{{hidden}}'><label for='level3-hidden{{id}}' data-id={{id}}>隐藏</label></div>";
-	var itemTpl="<div class='item' draggable='true'><div class='img'><img src='{{img}}' data-id={{id}}></div><div class='btns' data-id={{id}}><div class='edit'>编辑</div><div class='delete'>删除</div></div></div>";
+	var level1Tpl="<div class='input-control' draggable='true'><input type='radio' value={{id}} name='level1' id='level1-option{{id}}'><label for='level1-option{{id}}' class='radio-label'>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level1-hidden{{id}}' data-hidden='{{hidden}}'><label for='level1-hidden{{id}}'>隐藏</label><span class='delete-level'>删除</span></div>";
+	var level2Tpl="<div class='input-control' draggable='true'><input type='file' id='upload{{id}}' class='upload'><label for='upload{{id}}'><img src='{{img}}'></label><br><input type='radio' value={{id}} name='level2' id='level2-option{{id}}'><label for='level2-option{{id}}' class='radio-label'>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level2-hidden{{id}}' data-hidden='{{hidden}}'><label for='level2-hidden{{id}}'>隐藏</label><span class='delete-level'>删除</span></div>";
+	var level3Tpl="<div class='input-control' draggable='true'><input type='radio' value={{id}} name='level3' id='level3-option{{id}}'><label for='level3-option{{id}}' class='radio-label'>{{name}}</label><br><input type='checkbox' value='{{id}}' id='level3-hidden{{id}}' data-hidden='{{hidden}}'><label for='level3-hidden{{id}}'>隐藏</label><span class='delete-level'>删除</span></div>";
+	var itemTpl="<div class='item' draggable='true'><div class='img'><img src='{{img}}'></div><div class='btns'><div class='edit'>编辑</div><div class='delete'>删除</div></div></div>";
 	var detailTplStr="<div class='input-group'><div class='title-input' contenteditable='true'>{{key}}</div><div class='title-input' contenteditable='true'>{{value}}</div></div>";
 	var idArray=[0,0,0];
+	var currItemIndex=0;
 	var hasLevel1=data.length>0;
 
 	var hasLevel2=hasLevel1&&(data[idArray[0]].children.length>0);
 	var level2Data=hasLevel2&&data[idArray[0]].children;
 
 	var hasLevel3=hasLevel2&&(level2Data[idArray[1]].children.length>0)&&(level2Data[idArray[1]].children[idArray[2]].class==="third");
-	var level3Data=hasLevel3&&level2Data[idArray[1]].children;
+	var level3Data=hasLevel2&&level2Data[idArray[1]].children;
 
 	// var hasItem=hasLevel2&&((hasLevel3&&level3Data[idArray[2].children.length>0])||(hasLevel3||level2Data[idArray[1]].length>0));
 	var itemData=hasLevel2&&(hasLevel3?level3Data[idArray[2]].children:level2Data[idArray[1]].children);
 	var hasItem=itemData.length>0;
 	
-	var deleteBtns,editBtns;
 	var popOut=document.querySelector(".detail-cover-bg");
 	var closeBtn=document.querySelector(".detail-cover-bg .icon-close");
 	var fileBtn=document.querySelector(".detail-cover .img-file input");
@@ -39,6 +39,14 @@
 
 		// 绑定ondrag排序
 		orderItem("#level1-radios .input-control",data);
+
+		// 绑定点击删除
+		document.querySelectorAll('#level1-radios .delete-level').forEach(function(btn,index){
+			btn.onclick=function(){
+				data.splice(index,1)
+				loadLevel1()
+			}
+		})
 	}
 
 	function loadLevel2(){
@@ -50,16 +58,12 @@
 		document.querySelector("#detail-cover-body .confirm-btn").onclick=function(e){
 			var items=document.querySelectorAll("#items .item");
 			var txts=document.querySelectorAll(".input-group");
-			var id=popOut.getAttribute("data-id")
-			console.log('产品id',id)
-			if(!id){
-				id=items.length
-			}
 			// console.log(id);
-			var img=fileImg.src.split("/hopeshardware.github.io/")[1];
+			// var img=fileImg.src.split("/hopeshardware.github.io/")[1];
+			var img=fileImg.src
 			var title=document.getElementById("title").innerText;
 			var txt=[];
-			var tplStr="<div class='img'><img src='"+img+"'></div><div class='btns'data-id="+id+"><div class='edit'>编辑</div><div class='delete'>删除</div></div>";
+			var tplStr="<div class='img'><img src='"+img+"'></div><div class='btns'><div class='edit'>编辑</div><div class='delete'>删除</div></div>";
 			txts=Array.prototype.slice.call(txts);
 			txts.map(function(current){
 				values=current.querySelectorAll(".title-input");
@@ -70,7 +74,6 @@
 			});
 			var obj={
 				"class":"last",
-				"id":id,
 				"img":img,
 				"title":title,
 				"detail":[{
@@ -80,11 +83,12 @@
 			};
 			popOut.style.display="none";
 			// console.log(data);
-			addItem(obj,itemData);
+			itemData.splice(currItemIndex,1,obj)
+			loadItem()
 		}
 
 		// 绑定click显示产品新增弹窗
-		document.getElementById("add-item").onclick=showEditDialog
+		document.getElementById("add-item").onclick=addNewItem
 
 		// 绑定click关闭弹窗
 		closeBtn.onclick=function(){
@@ -93,12 +97,29 @@
 
 		// 绑定ondrag排序
 		orderItem("#level2-radios .input-control",level2Data);
+
+		// 绑定点击删除
+		document.querySelectorAll('#level2-radios .delete-level').forEach(function(btn,index){
+			btn.onclick=function(){
+				level2Data.splice(index,1)
+				idArray=[0,0,0]
+				loadContent()
+			}
+		})
 	}
 
 	function loadLevel3(){
 		appendTpl(level3Data,"level3-radios",level3Tpl);
 		document.querySelectorAll("#level3-radios input[type='radio']")[idArray[2]].setAttribute("checked","checked");
 		updateList("level3-radios",idArray,2);
+
+		// 绑定点击删除
+		document.querySelectorAll('#level1-radios .delete-level').forEach(function(btn,index){
+			btn.onclick=function(){
+				level3Data.splice(index,1)
+				loadLevel3()
+			}
+		})
 
 		// 绑定ondrag排序
 		orderItem("#level3-radios .input-control",level3Data);
@@ -107,8 +128,8 @@
 	function loadItem(){
 		appendTpl(itemData,"items",itemTpl);
 		console.log('加载产品列表',items.length);
-		deleteBtns=document.querySelectorAll("#items .delete");
-		editBtns=document.querySelectorAll("#items .edit");
+		var deleteBtns=document.querySelectorAll("#items .delete");
+		var editBtns=document.querySelectorAll("#items .edit");
 
 		// 绑定ondrag排序
 		orderItem("#items .item",itemData);
@@ -126,7 +147,8 @@
 		editBtns=Array.prototype.slice.call(editBtns);
 		editBtns.forEach(function(current,i){
 			current.onclick=function(){
-				showEditDialog(itemData[i])
+				currItemIndex=i
+				editItem(itemData[i])
 				loadContent()
 			}
 		})
@@ -188,15 +210,15 @@
 		})
 	}
 
-	function showEditDialog(data){
+	function editItem(data){
 		console.log('产品详情数据 ',data)
-		// 初始化编辑弹框
-		if(data){
-			popOut.setAttribute("data-id",data.id)
-			popOut.querySelector("img").src=data.img
-			popOut.querySelector("#title").innerText=data.title
-			popOut.querySelector(".inputs-box").innerHTML=repeatTpl(data.detail[0].txt,detailTplStr).join("")
-		}
+		popOut.querySelector("img").src=data.img
+		popOut.querySelector("#title").innerText=data.title
+		popOut.querySelector(".inputs-box").innerHTML=repeatTpl(data.detail[0].txt,detailTplStr).join("")
+		popOut.style.display="block";
+	}
+	function addNewItem(){
+		currItemIndex=itemData.length
 		popOut.style.display="block";
 	}
 
@@ -209,7 +231,7 @@
 			// 绑定radio onchange更新级联列表
 			if(current.type==="radio"){
 				current.onchange=function(){
-					var id=level.querySelector("input[type='radio']:checked").getAttribute("value");
+					var id=Array.prototype.indexOf.call(level.querySelectorAll("input[type='radio']"),level.querySelector("input[type='radio']:checked"));
 					// console.log(idArray[i]+":"+id);
 					if(!(idArray[i]==id)){
 						idArray[i]=id;
@@ -233,16 +255,16 @@
 					case 2:currentData=level3Data;
 				}
 				current.onchange=function(e){
-					var id=current.getAttribute("value")
+					var id=Array.prototype.indexOf.call(this.parentNode.parentNode.querySelectorAll("input[type='checkbox']"),this)
 					currentData[id].hidden=e.target.checked?'hidden':''
-					console.log(currentData)
+					console.log(id,currentData)
 				}
 			}
 			
 			// 绑定file onchange预览图片
 			if(current.type==="file"){
 				current.onchange=function(e){
-					var id=this.parentNode.getAttribute("data-id");
+					var id=Array.prototype.indexOf.call(current.parentNode.parentNode.querySelectorAll(".upload"),current);
 					// console.log(id);
 					var path=e.target.value;
 
@@ -281,7 +303,7 @@
 		btns=Array.prototype.slice.call(btns);
 		btns.map(function(btn){
 			btn.onclick=function(){
-				var levelId=btn.getAttribute("data-id");
+				var levelId=btns.indexOf(this);
 				console.log(levelId);
 				var currentList=lists[levelId];
 				// console.log(currentList);
@@ -295,7 +317,7 @@
 						"name":"name",
 						"children":[]
 					};
-					// tplStr="<input type='radio' value="+id+" name='level1' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
+					// tplStr="<input type='radio' value="+id+" name='level1' id='level1-option"+id+"'><label for='level1-option"+id+"' contenteditable='true'>name</label>";
 				}else if(levelId==1){
 					currentData=level2Data;
 					// console.log(currentData);
@@ -306,7 +328,7 @@
 						"img":"img/default.jpg",
 						"children":[]
 					};
-					// tplStr="<input type='radio' value="+id+" name='level2' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
+					// tplStr="<input type='radio' value="+id+" name='level2' id='level1-option"+id+"'><label for='level1-option"+id+"' contenteditable='true'>name</label>";
 				}else if(levelId==2){
 					currentData=level3Data;
 					obj={
@@ -315,7 +337,7 @@
 						"name":"name",
 						"children":[]
 					};
-					// tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' data-id="+id+" contenteditable='true'>name</label>";
+					// tplStr="<input type='radio' value="+id+" name='level3' id='level1-option"+id+"'><label for='level1-option"+id+"' contenteditable='true'>name</label>";
 				}
 				addItem(obj,currentData);
 			}
@@ -326,18 +348,16 @@
 
 	//新增产品、分类
 	function addItem(obj,currentData){
-		console.log(obj,currentData,'新增数据')
-		// 保存到数据
-		currentData.splice(obj.id,1,obj);
-		console.log(data);
+		currentData.push(obj)
 		loadContent();
 	}
 
 	// 编辑分类名
 	function editCategoryName(target){
 		var name=target.innerText;
-		var id=target.getAttribute("data-id");
-		var level=target.parentNode.parentNode.getAttribute("data-level");
+		var parent=target.parentNode.parentNode
+		var id=Array.prototype.indexOf.call(parent.querySelectorAll(".radio-label"),(target));
+		var level=parent.getAttribute("data-level");
 		switch(level){
 			case "0":data[id].name=name;
 			break;
@@ -356,14 +376,13 @@
 	// 绑定ondrag排序
 	// orderItem(items,itemData);
 	function orderItem(selector,data){
-		// console.log(items);
-		// console.log(itemData);
-		items=document.querySelectorAll(selector);
+		// console.log(selector);
+		var items=document.querySelectorAll(selector);
 		items=Array.prototype.slice.call(items);
 		items.map(function(item){
 			item.ondragstart=function(e){
 				// console.log(e.target);
-				var id=e.target.getAttribute("data-id")-0;
+				var id=items.indexOf(this)-0;
 				// console.log(id);
 				e.dataTransfer.setData("id",id);
 			}
@@ -373,8 +392,8 @@
 			item.ondrop=function(e){
 				e.preventDefault();
 				var min,max,j;
-				var dropId=e.target.getAttribute("data-id")-0;
-				// console.log(dropId);
+				var dropId=items.indexOf(this)-0;
+				console.log(dropId);
 				var dragId=e.dataTransfer.getData("id")-0;
 				// console.log(dragId);
 				data[dragId].id=dropId;
