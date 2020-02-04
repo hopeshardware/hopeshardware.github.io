@@ -17,20 +17,25 @@
 
 /************************** 标题 S ************************/
 h1{
-	margin-bottom:55px;
-	line-height: 180px;
+	margin-bottom:10px;
+	line-height: 60px;
 	text-align:center;
 	background: #0a7fb9;
-	font-size:48px;
+	font-size:28px;
 	font-weight: normal;
 	color:#fff;
 }
 /************************** 标题 E ************************/
 
+.delete-level{
+	margin-left:15px;
+}
+
 /************************** 一级分类 S ************************/
 .module1{
-	margin:0 auto 50px auto;
-	width:1200px;
+	margin:0 auto 10px auto;
+	padding:0 15px;
+	// width:1200px;
 	.title{
 		position: relative;
 		margin-bottom:10px;
@@ -40,7 +45,7 @@ h1{
 	h2{
 		display: inline-block;
 		vertical-align: middle;
-		font-size:24px;
+		font-size:18px;
 		color:#363636;
 	}
 	
@@ -53,13 +58,17 @@ h1{
 		overflow: hidden;
 		.input-control{
 			float:left;
+			font-size:14px;
+			min-width:150px;
+			margin-right:40px;
+			margin-bottom:10px;
+		}
+		.radio-label{
+			font-weight: bold;
 		}
 		label{
 			display: inline-block;
-			margin-right:40px;
 			text-transform: uppercase;
-			font-size:14px;
-			min-width:150px;
 		}
 		input{
 			margin-right:10px;
@@ -69,9 +78,6 @@ h1{
 /************************** 一级分类 E ************************/
 
 /************************** 二级分类 S ************************/
-.level2{
-	margin-bottom:35px;
-}
 #level2-radios{
 	.input-control{
 		position: relative;
@@ -97,14 +103,13 @@ h1{
 
 /************************** 编辑产品 S ************************/
 .items{
-	margin-left:-25px;
-	width:1250px;
+	margin-left:-5px;
 	font-size:0;
 	.item{
 		display: inline-block;
-		margin:0 25px 40px 25px;
+		margin:0 10px 15px 10px;
 		.img{
-			margin-bottom:15px;
+			margin-bottom:5px;
 			width:155px;
 			height:155px;
 			border:1px solid #ccc;
@@ -115,7 +120,7 @@ h1{
 			}
 		}
 		.btns{
-			display: none;
+			// display: none;
 			.clearfix;
 			div{
 				display: inline-block;
@@ -171,8 +176,10 @@ h1{
 	display: inline-block;
 	vertical-align: middle;
 	.box-sizing;
-	padding:35px 40px;
-	width:768px;
+	padding:20px;
+	width:80%;
+	min-width:450px;
+	max-width:768px;
 	border-radius:5px;
 	background:#fff;
 	.icon-close{
