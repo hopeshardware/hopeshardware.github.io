@@ -1,5 +1,5 @@
 var navId;
-var navTplStr="<li class='{{hidden}}'><a href='index?navId={{id}}'>{{name}}</a></li>";
+var navTplStr="<li class='{{hidden}}'><a href='index.html?navId={{id}}'>{{name}}</a></li>";
 var searchStr=location.search;
 var searchStrArr=[];
 var searchStrObj={};

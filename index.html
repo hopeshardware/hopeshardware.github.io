@@ -21,11 +21,11 @@
 	<div class="header">
 		<div class="header-body">
 			<div class="logo">
-				<a href="index"><img src="img/logo.png"></a>
+				<a href="index.html"><img src="img/logo.png"></a>
 			</div>
 			<div class="menu"><img src="img/menu.png" alt=""></div>
 			<div class="about-us">
-				<a href="about-us">ABOUT US</a>
+				<a href="about-us.html">ABOUT US</a>
 			</div>
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 	<script src="js/getData.js"></script>
 	<script src="js/common.js"></script>
 	<script>
-		var foldTplStr="<li class='{{hidden}}'><a href='item-list?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
+		var foldTplStr="<li class='{{hidden}}'><a href='item-list.html?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
 		
 		data=data[navId].children;
 		appendTpl(data,"main-body",foldTplStr);

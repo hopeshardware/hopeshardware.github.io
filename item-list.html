@@ -20,11 +20,11 @@
 	<div class="header">
 		<div class="header-body">
 			<div class="logo">
-				<a href="index"><img src="img/logo.png"></a>
+				<a href="index.html"><img src="img/logo.png"></a>
 			</div>
 			<div class="menu"><img src="img/menu.png" alt=""></div>
 			<div class="about-us">
-				<a href="about-us">ABOUT US</a>
+				<a href="about-us.html">ABOUT US</a>
 			</div>
 		</div>
 	</div>
@@ -97,7 +97,7 @@
 		console.log("foldId:"+foldId);
 		console.log("tabId:"+tabId);
 		// 加载路径
-		document.getElementById("path-body").innerHTML="<a href='index?navId="+navId+"'>"+data[navId].name+"</a><span class='icon-arrow'></span><span class='blue'>"+data[navId].children[foldId].name+"</span>";
+		document.getElementById("path-body").innerHTML="<a href='index.html?navId="+navId+"'>"+data[navId].name+"</a><span class='icon-arrow'></span><span class='blue'>"+data[navId].children[foldId].name+"</span>";
 
 
 		// 加载选项卡
