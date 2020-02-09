@@ -94,8 +94,8 @@
 		var cover=document.getElementById("detail-cover-body");
 		var navs,tabs;
 
-		console.log("foldId:"+foldId);
-		console.log("tabId:"+tabId);
+		// console.log("foldId:"+foldId);
+		// console.log("tabId:"+tabId);
 		// 加载路径
 		document.getElementById("path-body").innerHTML="<a href='index.html?navId="+navId+"'>"+data[navId].name+"</a><span class='icon-arrow'></span><span class='blue'>"+data[navId].children[foldId].name+"</span>";
 
@@ -148,7 +148,7 @@
 
 		// 判断是否需要加载下一页
 		function checkLoad(){
-			console.log(itemData.length)
+			// console.log(itemData.length)
 			if(mainContent.getBoundingClientRect().bottom-distance<clientH && pageNum*pageSize<itemData.length){
 				pageNum++
 				loadItems()
