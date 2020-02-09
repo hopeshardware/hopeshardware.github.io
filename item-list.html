@@ -121,6 +121,7 @@
 		distance=50
 		loadItems()
 		checkLoad()
+		addScrollListner()
 
 		// nav绑定click
 		if(tabs!==undefined){
@@ -134,27 +135,37 @@
 					itemData=foldData.children[index].children;
 					loadItems()
 					checkLoad()
+					addScrollListner()
 				}
 			})
 		}
 
 		// 分页：滚动加载
-		var timer=null
-		window.onscroll=function(){
-			clearTimeout(timer)
-			timer=null
-			timer=setTimeout(checkLoad,200)
+		function addScrollListner(){
+			var timer=null
+			window.onscroll=function(){
+				clearTimeout(timer)
+				timer=null
+				timer=setTimeout(checkLoad,200)
+			}
+		}
+
+		// 全部加载完成，取消滚动监听
+		function removeScrollListner(){
+			window.onscroll=null
 		}
 
 		// 判断是否需要加载下一页
 		function checkLoad(){
-			// console.log(itemData.length)
+			console.log(itemData.length)
+			clientH=window.innerHeight
 			if(mainContent.getBoundingClientRect().bottom-distance<clientH && pageNum*pageSize<itemData.length){
 				pageNum++
 				loadItems()
 				checkLoad()
 			}else if(pageNum*pageSize>=itemData.length){
 				endNote.style.display="block"
+				removeScrollListner()
 			}
 		}
 		
