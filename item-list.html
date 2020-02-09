@@ -141,14 +141,18 @@
 		function bindItemClick(){
 			var items=document.querySelectorAll("#main-body a");
 			items=Array.prototype.slice.call(items);
-			items.map(function(current){
+			items.map(function(current,index){
 				// console.log(data);
 				current.onclick=function(){
 					var itemId=this.getAttribute("data-id");
-					var itemDetailData=itemData[itemId].detail;
+					var item=itemData[index];
+					item.detail[0].txt.unshift({
+						key:'Name',
+						value:item.title
+					})
 					var htmlList=[];
 					// 加载商品详情
-					htmlList=repeatTpl(itemDetailData,detailImgTplStr).concat("<dd id='item-descrip'>",repeatTpl(itemDetailData[0].txt,detailTxtTplStr),"</dd>");
+					htmlList=repeatTpl(item.detail,detailImgTplStr).concat("<dd id='item-descrip'>",repeatTpl(item.detail[0].txt,detailTxtTplStr),"</dd>");
 					cover.innerHTML=htmlList.join("");
 					detailCover.style.display="block";
 				}
