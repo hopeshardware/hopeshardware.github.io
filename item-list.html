@@ -94,8 +94,8 @@
 		var cover=document.getElementById("detail-cover-body");
 		var navs,tabs;
 
-		console.log("foldId:"+foldId);
-		console.log("tabId:"+tabId);
+		// console.log("foldId:"+foldId);
+		// console.log("tabId:"+tabId);
 		// 加载路径
 		document.getElementById("path-body").innerHTML="<a href='index.html?navId="+navId+"'>"+data[navId].name+"</a><span class='icon-arrow'></span><span class='blue'>"+data[navId].children[foldId].name+"</span>";
 
@@ -114,41 +114,83 @@
 		}
 		
 		// 加载商品列表
-		appendTpl(itemData,"main-body",itemTplStr);
+		var pageSize=12,pageNum=1,
+		mainContent=document.getElementsByClassName('main')[0],
+		endNote=document.getElementsByClassName('end-note')[0],
+		clientH=window.innerHeight,
+		distance=50
+		loadItems()
+		checkLoad()
+		addScrollListner()
+
 		// nav绑定click
 		if(tabs!==undefined){
-			tabs.map(function(current){
+			tabs.map(function(current,index){
 				current.onclick=function(){
-					tabId=this.getAttribute("data-id");
-					console.log("tabId:"+tabId);
-					itemData=foldData.children[tabId].children;
-					// 加载商品列表
-					appendTpl(itemData,"main-body",itemTplStr);
 					tabs=Array.prototype.slice.call(tabs);
-					tabs.map(function(current,i){
-						i==tabId?current.setAttribute("class","selected"):current.removeAttribute("class");
+					tabs.map(function(current,j){
+						j==index?current.setAttribute("class","selected"):current.removeAttribute("class");
 					})
-					// item绑定click
-					bindItemClick();
+					pageNum=1
+					itemData=foldData.children[index].children;
+					loadItems()
+					checkLoad()
+					addScrollListner()
 				}
 			})
 		}
 
-		// item绑定click
-		bindItemClick();
+		// 分页：滚动加载
+		function addScrollListner(){
+			var timer=null
+			window.onscroll=function(){
+				clearTimeout(timer)
+				timer=null
+				timer=setTimeout(checkLoad,200)
+			}
+		}
+
+		// 全部加载完成，取消滚动监听
+		function removeScrollListner(){
+			window.onscroll=null
+		}
+
+		// 判断是否需要加载下一页
+		function checkLoad(){
+			console.log(itemData.length)
+			clientH=window.innerHeight
+			if(mainContent.getBoundingClientRect().bottom-distance<clientH && pageNum*pageSize<itemData.length){
+				pageNum++
+				loadItems()
+				checkLoad()
+			}else if(pageNum*pageSize>=itemData.length){
+				endNote.style.display="block"
+				removeScrollListner()
+			}
+		}
+		
+		// 加载列表
+		function loadItems(){
+			appendTpl(itemData.slice(0,pageNum*pageSize),"main-body",itemTplStr);
+			// item绑定click
+			bindItemClick();
+		}
 
 		// nav绑定click
 		function bindItemClick(){
 			var items=document.querySelectorAll("#main-body a");
 			items=Array.prototype.slice.call(items);
-			items.map(function(current){
+			items.map(function(current,index){
 				// console.log(data);
 				current.onclick=function(){
-					var itemId=this.getAttribute("data-id");
-					var itemDetailData=itemData[itemId].detail;
+					var item=itemData[index];
+					item.detail[0].txt.unshift({
+						key:'Name',
+						value:item.title
+					})
 					var htmlList=[];
 					// 加载商品详情
-					htmlList=repeatTpl(itemDetailData,detailImgTplStr).concat("<dd id='item-descrip'>",repeatTpl(itemDetailData[0].txt,detailTxtTplStr),"</dd>");
+					htmlList=repeatTpl(item.detail,detailImgTplStr).concat("<dd id='item-descrip'>",repeatTpl(item.detail[0].txt,detailTxtTplStr),"</dd>");
 					cover.innerHTML=htmlList.join("");
 					detailCover.style.display="block";
 				}

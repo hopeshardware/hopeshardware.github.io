@@ -44,7 +44,8 @@
 		document.querySelectorAll('#level1-radios .delete-level').forEach(function(btn,index){
 			btn.onclick=function(){
 				data.splice(index,1)
-				loadLevel1()
+				idArray[0]=0
+				loadContent()
 			}
 		})
 	}
@@ -102,7 +103,7 @@
 		document.querySelectorAll('#level2-radios .delete-level').forEach(function(btn,index){
 			btn.onclick=function(){
 				level2Data.splice(index,1)
-				idArray=[0,0,0]
+				idArray[1]=0
 				loadContent()
 			}
 		})
@@ -114,10 +115,12 @@
 		updateList("level3-radios",idArray,2);
 
 		// 绑定点击删除
-		document.querySelectorAll('#level1-radios .delete-level').forEach(function(btn,index){
+		document.querySelectorAll('#level3-radios .delete-level').forEach(function(btn,index){
+			// console.log()
 			btn.onclick=function(){
 				level3Data.splice(index,1)
-				loadLevel3()
+				idArray[2]=0
+				loadContent()
 			}
 		})
 

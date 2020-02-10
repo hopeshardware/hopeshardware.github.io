@@ -107,6 +107,7 @@
   color: #363636;
 }
 .main .end-note {
+  display: none;
   text-align: center;
   font-size: 14px;
   color: #586e83;
