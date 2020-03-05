@@ -29,3 +29,13 @@ function repeatTpl(data,tplStr){
 	return htmlList;
 }
 
+// a链接点击上报事件延时跳转
+function sendEventBeforeJump(e,sendEvent){
+	e.preventDefault()
+	sendEvent()
+	setTimeout(function(){
+		var url=e.target.getAttribute("href")
+		location.href=url
+	},500)
+}
+
