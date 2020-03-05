@@ -16,6 +16,16 @@
 	// console.log(window.innerWidth); 
 	html.style.fontSize=viewport<1200&&viewport/16+"px";
 </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159827935-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-159827935-1');
+</script>
 <body>
 	<!-- 头部 S -->
 	<div class="header">
@@ -25,7 +35,9 @@
 			</div>
 			<div class="menu"><img src="img/menu.png" alt=""></div>
 			<div class="about-us">
-				<a href="about-us.html">ABOUT US</a>
+				<a href="about-us.html" 
+				onclick="sendEventBeforeJump(event,
+				gtag.bind(window,'event', 'click', {'event_category': 'about-us','event_label': 'home'}))">ABOUT US</a>
 			</div>
 		</div>
 	</div>
@@ -55,7 +67,7 @@
 	<script src="js/getData.js"></script>
 	<script src="js/common.js"></script>
 	<script>
-		var foldTplStr="<li class='{{hidden}}'><a href='item-list.html?navId="+navId+"&foldId={{id}}'><img src='{{img}}'><span>{{name}}</span></a></li>";
+		var foldTplStr="<li class='{{hidden}}'><a href='item-list.html?navId="+navId+"&foldId={{id}}' onclick='"+'sendEventBeforeJump(event,gtag.bind(window,"event", "click", {"event_category": "2nd cate","event_label": "{{name}}"}))'+"'><img src='{{img}}'><span>{{name}}</span></a></li>";
 		
 		data=data[navId].children;
 		appendTpl(data,"main-body",foldTplStr);

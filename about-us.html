@@ -14,6 +14,17 @@
 		// console.log(window.innerWidth);
 		html.style.fontSize=viewport<=1200&&viewport/16+"px";
 	</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159827935-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-159827935-1');
+	</script>
+
 </head>
 <body>
 	<!-- 头部 S -->
@@ -56,7 +67,8 @@
 			<dd>In past years, our market share was growing rapidly especially after the cooperation with Alibaba on marketing. Currently our market covers Europe, North America, South America, Australia and The Far East. </dd>
 			<dd>Taking advantage of abundant resources in China, we have established a strong development team, integrated supply chain, and well-performance marketing & after- sale service system.</dd>
 			<dd>Any question, please contact us by following E-mail, your email will be responded in 24 hours.</dd>
-			<dd><b>Official E-mail: info@hopeshardware.com</b></dd>
+			<dd onclick="
+			gtag('event', 'click', {'event_category': 'contact','event_label': 'email'})"><b>Official E-mail: info@hopeshardware.com</b></dd>
 		</dl>
 	</div>
 		
