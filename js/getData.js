@@ -34,7 +34,7 @@ function sendEventBeforeJump(e,sendEvent){
 	e.preventDefault()
 	sendEvent()
 	setTimeout(function(){
-		var url=e.target.getAttribute("href")
+		var url=e.target.getAttribute("href")||e.target.parentNode.getAttribute("href")
 		location.href=url
 	},500)
 }
