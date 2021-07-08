@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/47-tools-wrench-&-key-drill-bits-er-size-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"ER size wrench",detail:[{img:a,txt:[{key:"Size",value:"19-320mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-ER-side.jpg")));

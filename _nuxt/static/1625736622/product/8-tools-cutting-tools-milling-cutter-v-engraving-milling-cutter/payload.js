@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/8-tools-cutting-tools-milling-cutter-v-engraving-milling-cutter", (function(a,b){return {data:[{data:{class:"last",img:a,title:"V engraving Milling cutter",detail:[{img:a,txt:[{key:b,value:b}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-flat-tip.JPG","")));

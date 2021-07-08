@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/34-tools-wrench-&-key-drill-bits-double-box-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Double box wrench",detail:[{img:a,txt:[{key:"Type",value:"Bent type"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Box-Bent.jpg")));

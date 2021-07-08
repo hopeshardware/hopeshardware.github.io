@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/16-tools-threading-tools-nut-extractor", (function(a){return {data:[{data:{class:"last",img:a,title:"Nut Extractor",detail:[{img:a,txt:[{key:"Type",value:"Low type"},{key:"SIZE",value:"Standard"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Extractor-Nut-Short.jpg")));

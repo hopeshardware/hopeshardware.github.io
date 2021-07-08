@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/15-tools-woodworking-router-bits-&-clamps-drill-bits-beading-router-bits", (function(a){return {data:[{data:{class:"last",id:22,img:a,title:"Beading router bits",detail:[{img:a,txt:[{key:"Material",value:"Carbide tip"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWR-Beading-bit.jpg")));

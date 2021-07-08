@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/48-tools-screwdriver-&-bits-drill-bits-screwdriver-pg619", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver PG619",detail:[{img:a,txt:[{key:"Item No.",value:"PG619"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG619.JPG")));

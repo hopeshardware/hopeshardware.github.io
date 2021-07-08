@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/3-tools-cutting-tools-reamer-reamer", (function(a){return {data:[{data:{class:"last",id:3,img:a,title:"Reamer",detail:[{img:a,txt:[{key:"Specification",value:"Spiral flutes taper shank"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Freamer\u002FT-CR--(6).jpg")));

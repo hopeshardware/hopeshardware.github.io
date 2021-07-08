@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/8-d&w-accessories-hinge-cabinet-hinge", (function(a){return {data:[{data:{class:"last",id:8,img:a,title:"Cabinet hinge",detail:[{img:a,txt:[{key:"Item number",value:"D-HI-C09"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fhinge\u002FD-HI-C09.jpg")));

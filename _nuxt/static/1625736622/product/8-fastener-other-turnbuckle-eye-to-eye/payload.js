@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/8-fastener-other-turnbuckle-eye-to-eye", (function(a){return {data:[{data:{class:"last",id:8,img:a,title:"Turnbuckle eye to eye",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fother\u002FTurnbuckle-eye-to-eye.jpg")));

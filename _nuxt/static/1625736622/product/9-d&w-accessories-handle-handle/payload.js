@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/9-d&w-accessories-handle-handle", (function(a){return {data:[{data:{class:"last",id:9,img:a,title:"Handle",detail:[{img:a,txt:[{key:"Item number",value:"D-HA-C07"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fhandle\u002FD-HA-C07.png")));

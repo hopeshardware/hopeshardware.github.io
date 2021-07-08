@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/22-tools-wrench-&-key-drill-bits-adjustable-open-end-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Adjustable open end wrench",detail:[{img:a,txt:[{key:"Material",value:"Aluminum"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Adjustable-Pipe.jpg")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/10-tools-cutting-tools-other-boring-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"Boring cutter",detail:[{img:a,txt:[{key:"Size",value:"Standard & Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fother\u002FMilling-Borig-tools.jpg")));

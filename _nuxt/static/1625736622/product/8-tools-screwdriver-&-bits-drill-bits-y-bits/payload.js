@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/8-tools-screwdriver-&-bits-drill-bits-y-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"Y bits",detail:[{img:a,txt:[{key:"SIZE",value:"Y0\u002FY1\u002FY2\u002FY3\u002FY4"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-Y.jpg")));

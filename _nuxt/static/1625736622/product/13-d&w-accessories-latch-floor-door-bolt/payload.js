@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/13-d&w-accessories-latch-floor-door-bolt", (function(a){return {data:[{data:{class:"last",id:13,img:a,title:"Floor door bolt",detail:[{img:a,txt:[{key:"Item number",value:"D-LA-FO03"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flatch\u002FD-LA-FO03.jpg")));

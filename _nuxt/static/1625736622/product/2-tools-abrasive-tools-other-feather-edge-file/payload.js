@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/2-tools-abrasive-tools-other-feather-edge-file", (function(a){return {data:[{data:{class:"last",img:a,title:"Feather edge File",detail:[{img:a,txt:[{key:"Material",value:"T10, T12"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-feather-edge.png")));

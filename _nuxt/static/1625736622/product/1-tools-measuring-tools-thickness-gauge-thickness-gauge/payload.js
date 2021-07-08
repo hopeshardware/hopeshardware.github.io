@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/1-tools-measuring-tools-thickness-gauge-thickness-gauge", (function(a,b){return {data:[{data:{class:"last",id:1,img:a,title:"Thickness gauge",detail:[{img:a,txt:[{key:"Item No.",value:"MT-TG-S01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fthickness-gauge\u002FMT-Thickness-gauge-(2).jpg","")));

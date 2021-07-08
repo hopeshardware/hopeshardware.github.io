@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/67-tools-screwdriver-&-bits-drill-bits-u-screwdriver-pg998", (function(a){return {data:[{data:{class:"last",img:a,title:"U screwdriver PG998",detail:[{img:a,txt:[{key:"Item No.",value:"PG998"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-U-PG998.JPG")));

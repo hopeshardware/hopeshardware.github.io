@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/12-tools-abrasive-tools-other-diamond-needle-file", (function(a){return {data:[{data:{class:"last",img:a,title:"Diamond needle File",detail:[{img:a,txt:[{key:"Size",value:"Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-diamond-needle-Special.png")));

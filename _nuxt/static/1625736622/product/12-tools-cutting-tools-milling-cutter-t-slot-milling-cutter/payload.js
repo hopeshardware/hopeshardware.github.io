@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/12-tools-cutting-tools-milling-cutter-t-slot-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"T slot Milling cutter",detail:[{img:a,txt:[{key:"Size",value:"1.0-12mm"}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-T-Carbide.JPG")));

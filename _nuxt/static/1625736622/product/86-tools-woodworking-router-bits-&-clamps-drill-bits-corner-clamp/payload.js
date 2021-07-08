@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/86-tools-woodworking-router-bits-&-clamps-drill-bits-corner-clamp", (function(a){return {data:[{data:{class:"last",img:a,title:"Corner clamp",detail:[{img:a,txt:[{key:"Material",value:"Aluminum alloy"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWood-clamp-Corner.JPG")));
