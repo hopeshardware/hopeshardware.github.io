@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/10-fastener-rivet-&-nut-&-stud-self-clinching-stud", (function(a){return {data:[{data:{class:"last",id:10,img:a,title:"Self clinching stud",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Frivet-&-nut-&-stud\u002FSelf-clinching-stud-(1).jpg")));

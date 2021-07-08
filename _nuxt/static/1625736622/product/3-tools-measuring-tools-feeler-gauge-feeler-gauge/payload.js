@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/3-tools-measuring-tools-feeler-gauge-feeler-gauge", (function(a,b){return {data:[{data:{class:"last",id:3,img:a,title:"Feeler gauge",detail:[{img:a,txt:[{key:"Item No.",value:"MT-FG-S02"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Ffeeler-gauge\u002FMT-feeler-gauge-(4).jpg","")));

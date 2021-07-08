@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/21-fastener-bolt-t-bolt", (function(a){return {data:[{data:{class:"last",id:21,img:a,title:"T bolt",detail:[{img:a,txt:[{key:"Size",value:"20, 30, 40, 45 series"},{key:"Material",value:"Stainless steel, Carbon Steel\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fbolt\u002FF-B-T-bolt--20-30-40-45.jpg")));

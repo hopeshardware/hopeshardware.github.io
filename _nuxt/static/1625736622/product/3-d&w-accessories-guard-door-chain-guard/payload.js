@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/3-d&w-accessories-guard-door-chain-guard", (function(a){return {data:[{data:{class:"last",id:3,img:a,title:"Door chain guard",detail:[{img:a,txt:[{key:"Item number",value:"D-G-C04"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fguard\u002FD-G-C04.jpg")));

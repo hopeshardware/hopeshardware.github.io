@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/15-tools-tools-kit-range-finder-tools-kit-47pcs", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Tools kit-47pcs",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Ftools-kit\u002Frange-finder\u002FTools-47pcs.JPG","")));

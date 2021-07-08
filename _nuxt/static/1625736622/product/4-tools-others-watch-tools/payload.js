@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/4-tools-others-watch-tools", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Watch tools",detail:[{img:a,txt:[{key:b,value:b}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fothers\u002FTools-watch.png","")));

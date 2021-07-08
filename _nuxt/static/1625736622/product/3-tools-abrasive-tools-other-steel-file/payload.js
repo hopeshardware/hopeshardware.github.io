@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/3-tools-abrasive-tools-other-steel-file", (function(a){return {data:[{data:{class:"last",img:a,title:"Steel File",detail:[{img:a,txt:[{key:"Size",value:"6\u002F8\u002F10\u002F12 inch"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-Steel.png")));

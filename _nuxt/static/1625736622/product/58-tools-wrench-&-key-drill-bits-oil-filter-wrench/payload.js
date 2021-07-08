@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/58-tools-wrench-&-key-drill-bits-oil-filter-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Oil filter wrench",detail:[{img:a,txt:[{key:"Size",value:"Standard size"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Car-Oil-filer.png")));

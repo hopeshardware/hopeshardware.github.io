@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/17-tools-woodworking-router-bits-&-clamps-drill-bits-chamfer-router-bits", (function(a){return {data:[{data:{class:"last",id:24,img:a,title:"Chamfer router bits",detail:[{img:a,txt:[{key:"Material",value:"Carbide tip"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWR-Chamfer-bit.jpg")));

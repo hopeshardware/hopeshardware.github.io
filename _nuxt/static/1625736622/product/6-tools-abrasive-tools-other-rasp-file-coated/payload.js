@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/6-tools-abrasive-tools-other-rasp-file-coated", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Rasp File-Coated",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-rasp-2.png","")));

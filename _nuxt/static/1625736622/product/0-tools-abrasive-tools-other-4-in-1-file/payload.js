@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/0-tools-abrasive-tools-other-4-in-1-file", (function(a){return {data:[{data:{class:"last",img:a,title:"4-in-1 File",detail:[{img:a,txt:[{key:"Size",value:"8 inch"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-4-in-1.png")));

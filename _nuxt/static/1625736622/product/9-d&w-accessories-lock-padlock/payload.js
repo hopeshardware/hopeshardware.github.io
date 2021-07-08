@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/9-d&w-accessories-lock-padlock", (function(a){return {data:[{data:{class:"last",id:9,img:a,title:"Padlock",detail:[{img:a,txt:[{key:"Item number",value:"D-L-P01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flock\u002FD-L-P01.png")));

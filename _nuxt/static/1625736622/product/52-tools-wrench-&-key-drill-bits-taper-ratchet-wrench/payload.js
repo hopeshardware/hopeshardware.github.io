@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/52-tools-wrench-&-key-drill-bits-taper-ratchet-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Taper ratchet wrench",detail:[{img:a,txt:[{key:"Size",value:"12-55mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Ratchet-Tapper-Handle.JPG")));

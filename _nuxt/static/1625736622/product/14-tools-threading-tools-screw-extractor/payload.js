@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/14-tools-threading-tools-screw-extractor", (function(a){return {data:[{data:{class:"last",img:a,title:"Screw Extractor",detail:[{img:a,txt:[{key:"Material",value:"HSS"},{key:"SIZE",value:"#0, #1, #2, #3, #4, #5, Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Extractor-HSS.jpg")));

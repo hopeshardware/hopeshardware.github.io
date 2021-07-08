@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/1-tools-abrasive-tools-other-aluminum-file", (function(a){return {data:[{data:{class:"last",img:a,title:"Aluminum File",detail:[{img:a,txt:[{key:"Size",value:"6\u002F8\u002F10\u002F12\u002F14\u002F16\u002F18 inch"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-Aluminum.JPG")));

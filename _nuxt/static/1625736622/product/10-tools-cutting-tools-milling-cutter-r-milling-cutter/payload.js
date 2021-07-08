@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/10-tools-cutting-tools-milling-cutter-r-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"R Milling cutter",detail:[{img:a,txt:[{key:"Size",value:"0.5-16mm"}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-R.jpg")));

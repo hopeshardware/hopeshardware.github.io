@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/26-fastener-nut-knurled-nut-with-collar", (function(a){return {data:[{data:{class:"last",id:26,img:a,title:"Knurled nut with collar",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fnut\u002FF-N-Knurled-nuts-with-collar.jpg")));

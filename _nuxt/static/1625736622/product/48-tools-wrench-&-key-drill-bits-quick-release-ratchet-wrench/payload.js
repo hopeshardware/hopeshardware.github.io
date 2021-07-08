@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/48-tools-wrench-&-key-drill-bits-quick-release-ratchet-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Quick release Ratchet wrench",detail:[{img:a,txt:[{key:"Size",value:"1\u002F2-3\u002F8-1\u002F4"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-ratchet-for-socket.png")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/4-tools-threading-tools-spiral-point-thread-tap", (function(a){return {data:[{data:{class:"last",img:a,title:"Spiral point thread tap",detail:[{img:a,txt:[{key:"SIZE",value:"Standard,Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Tap-Spiral-point.jpg")));

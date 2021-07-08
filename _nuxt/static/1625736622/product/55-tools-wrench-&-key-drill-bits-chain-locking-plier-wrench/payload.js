@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/55-tools-wrench-&-key-drill-bits-chain-locking-plier-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Chain locking plier \u002F wrench",detail:[{img:a,txt:[{key:"Size",value:"10\u002F18\u002F19 inch"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Locking.png")));

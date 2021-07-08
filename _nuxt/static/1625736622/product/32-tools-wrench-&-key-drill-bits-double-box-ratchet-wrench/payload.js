@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/32-tools-wrench-&-key-drill-bits-double-box-ratchet-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Double box Ratchet wrench",detail:[{img:a,txt:[{key:"Size",value:"4-32mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-ratchet-box.png")));

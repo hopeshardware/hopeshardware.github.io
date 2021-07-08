@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/7-tools-others-other-tools", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Other tools",detail:[{img:a,txt:[{key:b,value:b}]}],id:7}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fothers\u002FTools-Chisel-shape.jpg","")));
