@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/11-d&w-accessories-hinge-glass-door-hinge", (function(a){return {data:[{data:{class:"last",id:11,img:a,title:"Glass door hinge",detail:[{img:a,txt:[{key:"Item number",value:"D-HI-GD01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fhinge\u002FD-HI-GD01.png")));

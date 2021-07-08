@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/29-tools-screwdriver-&-bits-drill-bits-precision-screwdriver-yg006", (function(a){return {data:[{data:{class:"last",img:a,title:"Precision Screwdriver YG006",detail:[{img:a,txt:[{key:"Item No.",value:"YG-006"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Precision-YG006.JPG")));

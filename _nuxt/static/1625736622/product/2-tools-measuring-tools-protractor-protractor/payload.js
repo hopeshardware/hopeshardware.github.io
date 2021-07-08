@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/2-tools-measuring-tools-protractor-protractor", (function(a,b){return {data:[{data:{class:"last",id:2,img:a,title:"Protractor",detail:[{img:a,txt:[{key:"Item No.",value:"MT-P-C01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fprotractor\u002FMT-protractor-(1).jpg","")));

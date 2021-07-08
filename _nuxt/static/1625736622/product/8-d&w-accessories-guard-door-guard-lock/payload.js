@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/8-d&w-accessories-guard-door-guard-lock", (function(a){return {data:[{data:{class:"last",id:8,img:a,title:"Door guard lock",detail:[{img:a,txt:[{key:"Item number",value:"D-G-LC01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fguard\u002FD-G-LC01.jpg")));

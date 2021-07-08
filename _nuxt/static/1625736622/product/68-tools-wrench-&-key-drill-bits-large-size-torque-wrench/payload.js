@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/68-tools-wrench-&-key-drill-bits-large-size-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Large size Torque wrench",detail:[{img:a,txt:[{key:"Size",value:"60-6000N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-60-6000.JPG")));

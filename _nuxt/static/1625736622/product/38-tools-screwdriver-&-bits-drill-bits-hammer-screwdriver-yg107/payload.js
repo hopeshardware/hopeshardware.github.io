@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/38-tools-screwdriver-&-bits-drill-bits-hammer-screwdriver-yg107", (function(a){return {data:[{data:{class:"last",img:a,title:"Hammer Screwdriver YG107",detail:[{img:a,txt:[{key:"Item No.",value:"YG107"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-YG107.JPG")));

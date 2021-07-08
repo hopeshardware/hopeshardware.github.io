@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/2-tools-cutting-tools-turning-tools-turning-tools", (function(a){return {data:[{data:{class:"last",id:2,img:a,title:"Turning tools",detail:[{img:a,txt:[{key:"Specification",value:"External 60 degree"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fturning-tools\u002FT-CT--(3).jpg")));

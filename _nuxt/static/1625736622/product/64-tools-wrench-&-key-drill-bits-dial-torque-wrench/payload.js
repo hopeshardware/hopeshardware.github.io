@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/64-tools-wrench-&-key-drill-bits-dial-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Dial torque wrench",detail:[{img:a,txt:[{key:"Size",value:"0-300N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-0-300.JPG")));

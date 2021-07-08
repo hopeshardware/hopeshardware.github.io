@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/24-tools-wrench-&-key-drill-bits-single-open-end-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Single open end wrench",detail:[{img:a,txt:[{key:"Size",value:"5-34mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Open-Flat-1.JPG")));

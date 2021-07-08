@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/1-d&w-accessories-stopper-door-stopper", (function(a){return {data:[{data:{class:"last",id:1,img:a,title:"Door stopper",detail:[{img:a,txt:[{key:"Item number",value:"D-S-02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fstopper\u002FD-S-02.png")));

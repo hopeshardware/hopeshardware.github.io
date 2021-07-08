@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/63-tools-wrench-&-key-drill-bits-digital-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Digital torque wrench",detail:[{img:a,txt:[{key:"Size",value:"0.3-100N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-0.3-100.png")));

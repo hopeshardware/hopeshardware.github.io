@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/0-tools-measuring-tools-wire-gauge-wire-diameter-gauge", (function(a,b){return {data:[{data:{class:"last",id:0,img:a,title:"Wire diameter gauge",detail:[{img:a,txt:[{key:"Item No.",value:"MT-WD-G01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fwire-gauge\u002FMT-wire-diameter-gauge.jpg","")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/95-tools-woodworking-router-bits-&-clamps-drill-bits-rotary-file", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Rotary file",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWood-File-Rotary.png","")));

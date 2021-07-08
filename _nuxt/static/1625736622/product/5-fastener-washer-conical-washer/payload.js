@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/5-fastener-washer-conical-washer", (function(a){return {data:[{data:{class:"last",id:5,img:a,title:"Conical washer",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fwasher\u002FF-W-Conical-washer.jpg")));

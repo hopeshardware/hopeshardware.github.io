@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/4-tools-wrench-&-key-drill-bits-l-allen-hex-key", (function(a){return {data:[{data:{class:"last",img:a,title:"L allen hex key",detail:[{img:a,txt:[{key:"",value:"10pcs"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FKey-L-Hex-10pcs.JPG")));

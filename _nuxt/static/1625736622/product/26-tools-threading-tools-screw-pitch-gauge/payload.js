@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/26-tools-threading-tools-screw-pitch-gauge", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Screw pitch gauge",detail:[{img:a,txt:[{key:"Size",value:"30pcs"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Gauge-pitch-30pcs.JPG","")));

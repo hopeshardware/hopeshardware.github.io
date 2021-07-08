@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/0-tools-screwdriver-&-bits-drill-bits-phillips-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"Phillips bits",detail:[{img:a,txt:[{key:"SIZE",value:"PH000\u002FPH00\u002FPH0\u002FPH1\u002FPH2"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-Phillips.jpg")));

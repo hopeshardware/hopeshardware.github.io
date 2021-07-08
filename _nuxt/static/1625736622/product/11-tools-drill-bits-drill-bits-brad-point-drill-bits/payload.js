@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/11-tools-drill-bits-drill-bits-brad-point-drill-bits", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Brad point drill bits",detail:[{img:a,txt:[{key:"Material",value:"High carbon steel"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fdrill-bits\u002Fdrill-bits\u002FDrill-wood-brad-point.jpg","")));

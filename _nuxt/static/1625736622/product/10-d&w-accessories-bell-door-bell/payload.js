@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/10-d&w-accessories-bell-door-bell", (function(a){return {data:[{data:{class:"last",id:10,img:a,title:"Door bell",detail:[{img:a,txt:[{key:"Item number",value:"D-B-V03"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fbell\u002FD-B-V03.png")));

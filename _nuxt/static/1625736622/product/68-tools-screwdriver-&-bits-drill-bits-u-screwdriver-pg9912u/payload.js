@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/68-tools-screwdriver-&-bits-drill-bits-u-screwdriver-pg9912u", (function(a){return {data:[{data:{class:"last",img:a,title:"U screwdriver PG9912U",detail:[{img:a,txt:[{key:"Item No.",value:"PG9912U"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-U-PG9912U.JPG")));

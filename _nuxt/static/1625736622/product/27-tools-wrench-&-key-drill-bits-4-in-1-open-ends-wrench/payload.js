@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/27-tools-wrench-&-key-drill-bits-4-in-1-open-ends-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"4-in-1 open ends wrench",detail:[{img:a,txt:[{key:"Size",value:"customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Open-flat-4in1.jpg")));

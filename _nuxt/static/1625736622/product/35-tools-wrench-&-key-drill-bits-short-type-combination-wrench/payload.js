@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/35-tools-wrench-&-key-drill-bits-short-type-combination-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Short type combination wrench",detail:[{img:a,txt:[{key:"Size",value:"8-19mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Ratchet-Com-Short.jpg")));

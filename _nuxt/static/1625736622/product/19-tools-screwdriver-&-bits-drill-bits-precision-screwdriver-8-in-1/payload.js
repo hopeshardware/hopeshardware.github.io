@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/19-tools-screwdriver-&-bits-drill-bits-precision-screwdriver-8-in-1", (function(a){return {data:[{data:{class:"last",img:a,title:"Precision screwdriver 8-in-1",detail:[{img:a,txt:[{key:"Item No.",value:"FZ-895"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-8in1-FZ895.png")));

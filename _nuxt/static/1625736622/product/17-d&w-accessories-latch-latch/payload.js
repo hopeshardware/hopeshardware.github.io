@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/17-d&w-accessories-latch-latch", (function(a){return {data:[{data:{class:"last",id:17,img:a,title:"Latch",detail:[{img:a,txt:[{key:"Item number",value:"D-LA-B03"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flatch\u002FD-LA-B03.jpg")));
