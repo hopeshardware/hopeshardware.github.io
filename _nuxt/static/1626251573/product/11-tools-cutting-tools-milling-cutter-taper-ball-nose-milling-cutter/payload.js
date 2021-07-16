@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/11-tools-cutting-tools-milling-cutter-taper-ball-nose-milling-cutter", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Taper ball nose Milling cutter",detail:[{img:a,txt:[{key:b,value:b}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-Taper-blade.jpg","")));

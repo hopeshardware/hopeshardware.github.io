@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/13-tools-abrasive-tools-other-rotary-file-burrs", (function(a){return {data:[{data:{class:"last",img:a,title:"Rotary File \u002F Burrs",detail:[{img:a,txt:[{key:"Material",value:"Carbide"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fabrasive-tools\u002Fother\u002FFile-Rotary-(1).jpg")));

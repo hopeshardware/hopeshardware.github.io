@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/56-tools-wrench-&-key-drill-bits-strap-chain-filter-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Strap \u002F Chain filter wrench",detail:[{img:a,txt:[{key:"Size",value:"Standard size"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Car-Chain-strap.png")));

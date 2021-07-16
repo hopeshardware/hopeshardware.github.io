@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-d&w-accessories-others-drawer-slide", (function(a,b){return {data:[{data:{class:"last",id:0,img:a,title:"Drawer slide",detail:[{img:a,txt:[{key:"Item number",value:"D-DR-S01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fothers\u002FD-DR-S01.jpg","")));

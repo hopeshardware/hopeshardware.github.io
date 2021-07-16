@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/10-tools-threading-tools-thread-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"Thread milling cutter",detail:[{img:a,txt:[{key:"SIZE",value:"Standard,Customize"},{key:"Material",value:"HSS, Carbide"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Milling-MT.JPG")));

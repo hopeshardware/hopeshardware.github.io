@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/44-tools-wrench-&-key-drill-bits-t-socket-wrench-flexible-socket", (function(a){return {data:[{data:{class:"last",img:a,title:"T socket wrench-Flexible socket",detail:[{img:a,txt:[{key:"Size",value:"Standard size"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Car-Socket-T-F.jpg")));

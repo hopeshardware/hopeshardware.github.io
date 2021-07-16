@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/70-tools-wrench-&-key-drill-bits-torque-wrench-head", (function(a){return {data:[{data:{class:"last",img:a,title:"Torque wrench head",detail:[{img:a,txt:[{key:"Size",value:"Standard size"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-head.png")));

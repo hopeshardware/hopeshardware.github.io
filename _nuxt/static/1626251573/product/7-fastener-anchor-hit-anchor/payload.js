@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/7-fastener-anchor-hit-anchor", (function(a){return {data:[{data:{class:"last",id:7,img:a,title:"Hit anchor",detail:[{img:a,txt:[{key:"Item number",value:"F-A-H"},{key:"Size",value:"M6 M8 M10 M12 M14 M16 M20"},{key:"Material",value:"Stainless steel, Carbon Steel"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fanchor\u002FF-A-H.jpg")));

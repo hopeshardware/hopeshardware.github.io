@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/9-d&w-accessories-latch-padlock-bolt", (function(a){return {data:[{data:{class:"last",id:9,img:a,title:"Padlock bolt",detail:[{img:a,txt:[{key:"Item number",value:"D-LA-PA02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flatch\u002FD-LA-PA02.jpg")));

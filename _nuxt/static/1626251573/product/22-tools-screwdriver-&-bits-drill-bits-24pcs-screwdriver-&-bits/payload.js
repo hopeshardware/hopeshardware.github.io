@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/22-tools-screwdriver-&-bits-drill-bits-24pcs-screwdriver-&-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"24pcs Screwdriver & bits",detail:[{img:a,txt:[{key:"",value:"set pacakge"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-24pcs.JPG")));

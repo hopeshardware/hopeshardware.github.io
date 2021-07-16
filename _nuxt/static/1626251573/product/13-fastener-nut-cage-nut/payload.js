@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/13-fastener-nut-cage-nut", (function(a){return {data:[{data:{class:"last",id:13,img:a,title:"Cage nut",detail:[{img:a,txt:[{key:"Item number",value:"F-N-C04"},{key:"Size",value:"M2,M3,M4,M5,M6,M8,M10"},{key:"Material",value:"Carbon steel-Yellow zinc plated "}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fnut\u002FF-N-C04.png")));

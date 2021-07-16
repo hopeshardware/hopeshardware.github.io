@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/42-tools-screwdriver-&-bits-drill-bits-screwdriver-yg202", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver YG202",detail:[{img:a,txt:[{key:"Item No.",value:"YG202"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-YG202.JPG")));

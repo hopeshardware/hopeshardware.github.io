@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/51-tools-screwdriver-&-bits-drill-bits-screwdriver-pg9014", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver PG9014",detail:[{img:a,txt:[{key:"Item No.",value:"PG9014"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG9014.JPG")));

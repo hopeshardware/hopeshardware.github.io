@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/93-tools-woodworking-router-bits-&-clamps-drill-bits-clamp-hs-j012", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Clamp HS-J012",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWood-Clamp-HS-J012.jpg","")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/7-fastener-other-leveling-foot", (function(a){return {data:[{data:{class:"last",id:7,img:a,title:"Leveling foot",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel, Plastic\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fother\u002FF-O-Leveling-foot.png")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/1-tools-measuring-tools-micrometer-micrometer", (function(a,b){return {data:[{data:{class:"last",id:1,img:a,title:"Micrometer",detail:[{img:a,txt:[{key:"Item No.",value:"MT-MM-D02"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fmicrometer\u002FMT-Micrometer-(2).jpg","")));

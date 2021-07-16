@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-tools-cutting-tools-other-collect-chuck-", (function(a){return {data:[{data:{class:"last",id:0,img:a,title:"Collect Chuck ",detail:[{img:a,txt:[{key:"Specification",value:"ER11 ER20 ER25 ER32 ER40 "}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fother\u002FT-CP--(2).jpg")));

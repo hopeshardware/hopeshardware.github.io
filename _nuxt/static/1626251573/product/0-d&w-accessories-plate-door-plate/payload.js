@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-d&w-accessories-plate-door-plate", (function(a){return {data:[{data:{class:"last",id:0,img:a,title:"Door plate",detail:[{img:a,txt:[{key:"Item number",value:"D-PL-01"},{key:"Specification",value:"Number"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fplate\u002FD-PL-01.jpg")));

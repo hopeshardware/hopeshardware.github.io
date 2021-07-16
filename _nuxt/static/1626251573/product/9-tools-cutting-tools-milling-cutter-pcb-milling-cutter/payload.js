@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/9-tools-cutting-tools-milling-cutter-pcb-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"PCB Milling cutter",detail:[{img:a,txt:[{key:"Size",value:"0.4-8mm"}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-PCB-Bright.JPG")));

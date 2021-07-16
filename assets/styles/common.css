@@ -1,0 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 75px;
+}
+body {
+  height: 100%;
+  overflow-y: scroll;
+  background: #e4f0f9;
+}
+.hidden{
+  display: none !important;
+}
+/****************@media 992-1200 S***************/
+@media (max-width: 1200px) {
+  .copyright {
+    width: 15rem;
+  }
+}
+/****************@media 992-1200 E***************/
+/****************@media 0-768 S***************/
+@media (max-width: 768px) {
+  .copyright-body {
+    font-size: 0.291667rem;
+  }
+}
+/****************@media 0-768 E***************/

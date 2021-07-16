@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-d&w-accessories-peephole-peephole", (function(a){return {data:[{data:{class:"last",id:0,img:a,title:"Peephole",detail:[{img:a,txt:[{key:"Item number",value:"D-PE01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fpeephole\u002FD-PE01.png")));

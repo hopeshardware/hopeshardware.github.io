@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/6-fastener-other-pipe-plug", (function(a){return {data:[{data:{class:"last",id:6,img:a,title:"Pipe plug",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel, Plastic\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fother\u002FF-O-Pipe-plug.jpg")));

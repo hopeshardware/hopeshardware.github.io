@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/39-tools-screwdriver-&-bits-drill-bits-nail-extractor-pg325", (function(a){return {data:[{data:{class:"last",img:a,title:"Nail extractor PG325",detail:[{img:a,txt:[{key:"Item No.",value:"PG325"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG325.JPG")));

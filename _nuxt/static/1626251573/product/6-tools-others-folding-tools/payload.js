@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/6-tools-others-folding-tools", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Folding tools",detail:[{img:a,txt:[{key:b,value:b}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fothers\u002FTools-Folding-2.png","")));

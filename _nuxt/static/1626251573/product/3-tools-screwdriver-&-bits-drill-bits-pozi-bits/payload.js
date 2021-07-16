@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/3-tools-screwdriver-&-bits-drill-bits-pozi-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"Pozi bits",detail:[{img:a,txt:[{key:"SIZE",value:"PZ0\u002FPZ1\u002FPZ2\u002FPZ3"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-Pozi-(1).jpg")));

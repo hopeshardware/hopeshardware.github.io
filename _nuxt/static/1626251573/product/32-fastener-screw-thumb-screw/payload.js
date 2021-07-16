@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/32-fastener-screw-thumb-screw", (function(a){return {data:[{data:{class:"last",id:32,img:a,title:"Thumb screw",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon Steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fscrew\u002FF-S-Thumb-screw.jpg")));

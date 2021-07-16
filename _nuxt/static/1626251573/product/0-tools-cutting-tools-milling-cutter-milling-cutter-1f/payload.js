@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-tools-cutting-tools-milling-cutter-milling-cutter-1f", (function(a){return {data:[{data:{class:"last",img:a,title:"Milling cutter-1F",detail:[{img:a,txt:[{key:"Size",value:"1.0-12mm, for Aluminum"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-1F-Alu.jpg")));

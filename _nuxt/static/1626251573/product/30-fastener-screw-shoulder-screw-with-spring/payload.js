@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/30-fastener-screw-shoulder-screw-with-spring", (function(a){return {data:[{data:{class:"last",id:30,img:a,title:"Shoulder screw with spring",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon Steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fscrew\u002FF-S-Shoulder-screw-with-spring.jpg")));

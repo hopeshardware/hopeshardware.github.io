@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/5-tools-cutting-tools-reamer-reamer", (function(a){return {data:[{data:{class:"last",id:5,img:a,title:"Reamer",detail:[{img:a,txt:[{key:"Specification",value:"Carbide"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Freamer\u002FT-CR--(5).jpg")));

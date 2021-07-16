@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/3-tools-cutting-tools-other-shim", (function(a){return {data:[{data:{class:"last",id:3,img:a,title:"Shim",detail:[{img:a,txt:[{key:"Specification",value:"for turning tools"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fother\u002FT-CP--(4).jpg")));

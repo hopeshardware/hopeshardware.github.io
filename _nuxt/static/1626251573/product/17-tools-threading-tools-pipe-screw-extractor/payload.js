@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/17-tools-threading-tools-pipe-screw-extractor", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Pipe screw Extractor",detail:[{img:a,txt:[{key:"Material",value:"HSS, High carbon steel"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Extractor-Pipe.jpg","")));

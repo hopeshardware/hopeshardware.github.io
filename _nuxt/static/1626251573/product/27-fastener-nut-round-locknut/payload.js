@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/27-fastener-nut-round-locknut", (function(a){return {data:[{data:{class:"last",id:27,img:a,title:"Round locknut",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fnut\u002FF-N-Round-locknut.jpg")));

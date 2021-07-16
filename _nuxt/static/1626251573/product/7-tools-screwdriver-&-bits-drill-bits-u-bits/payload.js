@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/7-tools-screwdriver-&-bits-drill-bits-u-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"U bits",detail:[{img:a,txt:[{key:"SIZE",value:"SP3\u002FSP4\u002FSP5\u002FSP6"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-U.jpg")));

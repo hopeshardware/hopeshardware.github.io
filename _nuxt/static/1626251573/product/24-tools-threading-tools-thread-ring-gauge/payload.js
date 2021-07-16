@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/24-tools-threading-tools-thread-ring-gauge", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Thread Ring gauge",detail:[{img:a,txt:[{key:"Standard",value:"ISO,UNC,UNF,DIN,JIS,Customize"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Gauge-Ring.jpg","")));

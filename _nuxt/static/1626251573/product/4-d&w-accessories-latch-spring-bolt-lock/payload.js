@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/4-d&w-accessories-latch-spring-bolt-lock", (function(a){return {data:[{data:{class:"last",id:4,img:a,title:"Spring bolt lock",detail:[{img:a,txt:[{key:"Item number",value:"D-LA-SP01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flatch\u002FD-LA-SP01.png")));

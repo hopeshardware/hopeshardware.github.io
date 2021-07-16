@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-tools-measuring-tools-wheel-meter-wheel-meter", (function(a,b){return {data:[{data:{class:"last",id:0,img:a,title:"Wheel meter",detail:[{img:a,txt:[{key:"Item No.",value:"MT-WM-D01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fwheel-meter\u002FMT-wheel-meter-(1).jpg","")));

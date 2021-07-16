@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/18-tools-threading-tools-tap-wrench-a", (function(a,b){return {data:[{data:{class:"last",img:b,title:"Tap wrench A",detail:[{img:b,txt:[{key:a,value:a},{key:a,value:a}]}]}}],fetch:{},mutations:void 0}}("","\u002Fimg\u002Ftools\u002Fthreading-tools\u002FThread-Tap-handle-1.JPG")));

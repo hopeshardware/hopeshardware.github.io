@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/70-tools-screwdriver-&-bits-drill-bits-screwdriver-bits-set-pg0633", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver bits set PG0633",detail:[{img:a,txt:[{key:"Item No.",value:"PG0633"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG0633.JPG")));

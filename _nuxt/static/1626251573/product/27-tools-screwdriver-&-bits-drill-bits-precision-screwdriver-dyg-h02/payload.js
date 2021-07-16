@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/27-tools-screwdriver-&-bits-drill-bits-precision-screwdriver-dyg-h02", (function(a){return {data:[{data:{class:"last",img:a,title:"Precision Screwdriver DYG-H02",detail:[{img:a,txt:[{key:"Item No.",value:"DYG-H02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Precision-DYG-H02.JPG")));

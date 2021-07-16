@@ -1,0 +1,27 @@
+// @use '@material/theme' as theme-variables with (
+//   $primary: #1c6aa0,
+//   $secondary: #d6142b
+// );
+
+// @use '@material/top-app-bar/variables' as top-app-bar-variables with (
+//   // Default styles
+//   $row-height: 100px,
+//   $section-vertical-padding: 15px,
+//   $section-horizontal-padding: 24px,
+
+//   $mobile-breakpoint: 599px,
+
+//   // Default mobile styles
+//   $mobile-row-height: 64px,
+//   $mobile-section-padding: 10px,
+// );
+
+// @use 'balm-ui/components/core';
+// @use 'balm-ui/components/top-app-bar/top-app-bar';
+// @use 'balm-ui/components/icon-button/icon-button';
+// @use 'balm-ui/components/icon/icon';
+// @use 'balm-ui/components/grid/grid';
+
+// @use 'balm-ui/components/dialog/dialog';
+// @use 'balm-ui/plugins/confirm/confirm';
+

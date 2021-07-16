@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/3-tools-wrench-&-key-drill-bits-l-square-key", (function(a){return {data:[{data:{class:"last",img:a,title:"L Square key",detail:[{img:a,txt:[{key:"Size",value:"Standard, Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FKey-L-Square.JPG")));

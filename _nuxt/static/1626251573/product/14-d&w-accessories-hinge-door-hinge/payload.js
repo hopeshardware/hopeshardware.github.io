@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/14-d&w-accessories-hinge-door-hinge", (function(a){return {data:[{data:{class:"last",id:14,img:a,title:"Door hinge",detail:[{img:a,txt:[{key:"Item number",value:"D-HI-DC02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fhinge\u002FD-HI-DC02.jpg")));

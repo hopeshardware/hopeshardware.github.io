@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/5-tools-screwdriver-&-bits-drill-bits-square-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"Square bits",detail:[{img:a,txt:[{key:"SIZE",value:"SQ0\u002FSQ1\u002FSQ2\u002FSQ2.74\u002FSQ3"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-Square.jpg")));

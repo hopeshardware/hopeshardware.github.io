@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/81-tools-screwdriver-&-bits-drill-bits-insulation-screwdriver-pg9701", (function(a){return {data:[{data:{class:"last",img:a,title:"Insulation screwdriver PG9701",detail:[{img:a,txt:[{key:"Item No.",value:"PG9701"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Insulation-PG9701.JPG")));

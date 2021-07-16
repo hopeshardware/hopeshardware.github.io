@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/7-tools-cutting-tools-milling-cutter-dovetail-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"Dovetail Milling cutter",detail:[{img:a,txt:[{key:"Size",value:"3-12mm"}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-Dovetail.jpg")));

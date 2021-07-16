@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/9-tools-cutting-tools-other-clamp", (function(a){return {data:[{data:{class:"last",id:9,img:a,title:"Clamp",detail:[{img:a,txt:[{key:"Specification",value:"for clamping carbide insert"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fother\u002FT-CP--(28).jpg")));

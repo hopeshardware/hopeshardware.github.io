@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/37-fastener-screw-chicago-screw", (function(a){return {data:[{data:{class:"last",id:37,img:a,title:"Chicago screw",detail:[{img:a,txt:[{key:"Item number",value:"F-S-CP03"},{key:"Size",value:"M2,M2.5,M5,M6,M8,M10"},{key:"Material",value:"Copper,Copper plated"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fscrew\u002FF-S-CP03.png")));

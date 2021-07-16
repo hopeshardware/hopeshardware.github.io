@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/5-tools-measuring-tools-ruler-&-square-square", (function(a){return {data:[{data:{class:"last",id:6,img:a,title:"Square",detail:[{img:a,txt:[{key:"Item No.",value:"MT-CS-A02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fruler-&-square\u002FMT-combination-square-(1).jpg")));

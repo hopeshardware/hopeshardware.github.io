@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/16-tools-cutting-tools-milling-cutter-milling-cutter--saw-blade", (function(a){return {data:[{data:{class:"last",img:a,title:"Milling cutter- Saw blade",detail:[{img:a,txt:[{key:"Material",value:"Carbide tipped"}]}],id:16}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-Blade.jpg")));

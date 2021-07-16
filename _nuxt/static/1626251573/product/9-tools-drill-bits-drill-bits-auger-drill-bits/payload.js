@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/9-tools-drill-bits-drill-bits-auger-drill-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"Auger drill bits",detail:[{img:a,txt:[{key:"SIZE",value:"D: 3-40mm"},{key:"Length",value:"L: 100-1000mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fdrill-bits\u002Fdrill-bits\u002FDrill-wood-Auger.jpg")));

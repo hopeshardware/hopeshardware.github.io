@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/2-d&w-accessories-closer-door-closer", (function(a){return {data:[{data:{class:"last",id:2,img:a,title:"Door closer",detail:[{img:a,txt:[{key:"Item number",value:"D-C-03"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Fcloser\u002FD-C-03.jpg")));

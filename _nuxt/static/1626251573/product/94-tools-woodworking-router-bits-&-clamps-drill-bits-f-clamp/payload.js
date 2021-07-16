@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/94-tools-woodworking-router-bits-&-clamps-drill-bits-f-clamp", (function(a){return {data:[{data:{class:"last",img:a,title:"F clamp",detail:[{img:a,txt:[{key:"Material",value:"Nylon"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FWood-Clamp-F3.jpg")));

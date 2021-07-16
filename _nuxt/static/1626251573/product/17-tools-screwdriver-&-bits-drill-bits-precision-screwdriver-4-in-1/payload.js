@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/17-tools-screwdriver-&-bits-drill-bits-precision-screwdriver-4-in-1", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Precision screwdriver 4-in-1",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Glass-4in1.jpg","")));

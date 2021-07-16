@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/32-tools-screwdriver-&-bits-drill-bits-hammer-screwdriver-pg415", (function(a){return {data:[{data:{class:"last",img:a,title:"Hammer Screwdriver PG415",detail:[{img:a,txt:[{key:"Item No.",value:"PG415"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG415-2.JPG")));

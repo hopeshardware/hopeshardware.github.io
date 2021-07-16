@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/customization", {data:[{cate1Name:"customization",cate1Data:[],prePath:{home:"\u002F"}}],fetch:{},mutations:void 0});

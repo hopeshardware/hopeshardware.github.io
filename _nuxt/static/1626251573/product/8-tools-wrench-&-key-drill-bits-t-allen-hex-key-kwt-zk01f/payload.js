@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/8-tools-wrench-&-key-drill-bits-t-allen-hex-key-kwt-zk01f", (function(a,b){return {data:[{data:{class:"last",img:a,title:"T allen hex key KWT-ZK01F",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FKey-Hex-KWT-ZK01F.JPG","")));

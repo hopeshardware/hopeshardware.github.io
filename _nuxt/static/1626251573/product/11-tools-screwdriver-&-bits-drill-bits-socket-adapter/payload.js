@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/11-tools-screwdriver-&-bits-drill-bits-socket-adapter", (function(a){return {data:[{data:{class:"last",img:a,title:"Socket adapter",detail:[{img:a,txt:[{key:"SIZE",value:"1\u002F4, 3\u002F8, 1\u002F2, 3\u002F4, 1 inch"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FBits-Socket-Adapter.png")));

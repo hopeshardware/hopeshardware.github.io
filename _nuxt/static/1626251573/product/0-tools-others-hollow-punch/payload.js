@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-tools-others-hollow-punch", (function(a){return {data:[{data:{class:"last",img:a,title:"Hollow punch",detail:[{img:a,txt:[{key:"Size",value:"1.0-35mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fothers\u002FPunch-Hollow-hole.JPG")));

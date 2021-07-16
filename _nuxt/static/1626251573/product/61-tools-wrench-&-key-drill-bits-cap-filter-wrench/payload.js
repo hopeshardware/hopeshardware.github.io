@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/61-tools-wrench-&-key-drill-bits-cap-filter-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Cap filter wrench",detail:[{img:a,txt:[{key:"Size",value:"Standard size"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Car-cap-filter-set.png")));

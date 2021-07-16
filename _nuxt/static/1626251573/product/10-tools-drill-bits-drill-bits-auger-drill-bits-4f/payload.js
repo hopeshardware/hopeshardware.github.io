@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/10-tools-drill-bits-drill-bits-auger-drill-bits-4f", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Auger drill bits-4F",detail:[{img:a,txt:[{key:"SIZE",value:"D: 3-40mm"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fdrill-bits\u002Fdrill-bits\u002FDrill-wood-Auger-4F.jpg","")));

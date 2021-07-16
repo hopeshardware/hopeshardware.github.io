@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/51-tools-wrench-&-key-drill-bits-multi-size-double-box-wrench", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Multi-size double box wrench",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Multi-2.png","")));

@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1626251573",layout:"default",error:a,serverRendered:true,routePath:"\u002Fproduct\u002F2-tools-cutting-tools-milling-cutter-milling-cutter-2f",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));

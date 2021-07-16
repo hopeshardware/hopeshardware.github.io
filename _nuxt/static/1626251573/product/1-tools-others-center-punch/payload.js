@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/1-tools-others-center-punch", (function(a){return {data:[{data:{class:"last",img:a,title:"Center punch",detail:[{img:a,txt:[{key:"Material",value:"CRV steel"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fothers\u002FPunch-Center.JPG")));

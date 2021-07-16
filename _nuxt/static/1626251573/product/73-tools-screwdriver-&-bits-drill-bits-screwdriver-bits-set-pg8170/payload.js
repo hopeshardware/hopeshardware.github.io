@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/73-tools-screwdriver-&-bits-drill-bits-screwdriver-bits-set-pg8170", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver bits set PG8170",detail:[{img:a,txt:[{key:"Item No.",value:"PG8170"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG8170A.JPG")));

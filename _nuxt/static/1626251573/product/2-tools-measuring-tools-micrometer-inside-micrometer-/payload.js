@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/2-tools-measuring-tools-micrometer-inside-micrometer-", (function(a,b){return {data:[{data:{class:"last",id:2,img:a,title:"Inside Micrometer ",detail:[{img:a,txt:[{key:"Item No.",value:"MT-MM-G01"},{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fmeasuring-tools\u002Fmicrometer\u002FMT-Micrometer-inside.jpg","")));

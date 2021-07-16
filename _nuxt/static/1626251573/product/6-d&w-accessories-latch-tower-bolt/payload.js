@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/6-d&w-accessories-latch-tower-bolt", (function(a){return {data:[{data:{class:"last",id:6,img:a,title:"Tower bolt",detail:[{img:a,txt:[{key:"Item number",value:"D-LA-TO02"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flatch\u002FD-LA-TO02.jpg")));

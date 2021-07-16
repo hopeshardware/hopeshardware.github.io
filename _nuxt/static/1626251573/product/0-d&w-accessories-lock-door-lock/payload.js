@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/0-d&w-accessories-lock-door-lock", (function(a){return {data:[{data:{class:"last",id:0,img:a,title:"Door lock",detail:[{img:a,txt:[{key:"Item number",value:"D-L-D01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Fd&w-accessories\u002Flock\u002FD-L-D01.png")));

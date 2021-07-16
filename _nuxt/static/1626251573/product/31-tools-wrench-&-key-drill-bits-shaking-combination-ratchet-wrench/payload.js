@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/31-tools-wrench-&-key-drill-bits-shaking-combination-ratchet-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Shaking Combination Ratchet wrench",detail:[{img:a,txt:[{key:"Size",value:"8-32mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Ratchet-Com-shaking.png")));

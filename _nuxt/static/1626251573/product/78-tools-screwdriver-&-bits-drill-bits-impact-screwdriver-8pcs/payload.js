@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/78-tools-screwdriver-&-bits-drill-bits-impact-screwdriver-8pcs", (function(a){return {data:[{data:{class:"last",img:a,title:"Impact screwdriver 8pcs",detail:[{img:a,txt:[{key:"Item No.",value:"plastic box package"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Impact-8pcs.JPG")));

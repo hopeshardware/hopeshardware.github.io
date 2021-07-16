@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/2-tools-wrench-&-key-drill-bits-l-phillips-hex-key", (function(a){return {data:[{data:{class:"last",img:a,title:"L Phillips-Hex key",detail:[{img:a,txt:[{key:"Size",value:"Customize"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FKey-L-hex-Ph.jpg")));

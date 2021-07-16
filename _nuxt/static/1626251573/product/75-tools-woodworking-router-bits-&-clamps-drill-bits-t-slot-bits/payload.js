@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/75-tools-woodworking-router-bits-&-clamps-drill-bits-t-slot-bits", (function(a){return {data:[{data:{class:"last",img:a,title:"T slot bits",detail:[{img:a,txt:[{key:"Size",value:"Shank: 1\u002F2, 1\u002F4, 6mm, 8mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwoodworking-router-bits-&-clamps\u002Fdrill-bits\u002FRouter-T.JPG")));

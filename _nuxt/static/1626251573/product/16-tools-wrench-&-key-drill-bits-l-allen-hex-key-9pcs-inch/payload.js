@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/product/16-tools-wrench-&-key-drill-bits-l-allen-hex-key-9pcs-inch", (function(a){return {data:[{data:{class:"last",img:a,title:"L Allen hex key 9pcs-inch",detail:[{img:a,txt:[{key:"",value:"Long and short type"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FKey-Hex-Ball-Inch-set.JPG")));
