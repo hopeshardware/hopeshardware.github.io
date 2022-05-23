@@ -801,6 +801,7 @@ h1 {
 
 /****************结果展示 S***************/
 .result-box{
+    overflow: auto;
     position: fixed;
     width: 100vw;
     height: 100vh;

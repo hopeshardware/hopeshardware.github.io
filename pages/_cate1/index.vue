@@ -7,7 +7,7 @@
       <!-- main S -->
       <div class="main">
         <ul class="main-body" id="main-body">
-          <li :class="ele.hidden" v-for="ele in cate1Data" :key="ele.id">
+          <li :class="ele.hidden?'hidden':''" v-for="ele in cate1Data" :key="ele.id">
             <a
               :href="`/${cate1Name.replace(/[\s|\/]/g,'-')}/${ele.name.toLowerCase().replace(/[\s|\/]/g,'-')}/`"
               @click="$delayA($event),$ga.event('2nd cate','click', ele.name)"

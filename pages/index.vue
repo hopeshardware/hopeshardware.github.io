@@ -7,7 +7,7 @@
           <ui-grid class="cate-box">
             <ui-grid-cell columns="6">
               <a href="/fastener" class="main-cate" @click="$delayA($event),$ga.event('1st cate','click', 'fastners')">
-                fastners
+                fasteners
                 <img src="~/assets/images/fastners.jpg" alt="fastners">
               </a>
             </ui-grid-cell>
@@ -23,12 +23,12 @@
                 <img src="~/assets/images/hand-tools.jpg" alt="hand-tools">
               </a>
             </ui-grid-cell>
-            <ui-grid-cell columns="6" class="parent-cell">
-              <a href="/furniture-hardware" class="sub-cate" @click="$delayA($event),$ga.event('1st cate','click', 'furniture hardware')">
+            <ui-grid-cell columns="6">
+              <!-- <a href="/furniture-hardware" class="sub-cate" @click="$delayA($event),$ga.event('1st cate','click', 'furniture hardware')">
                 furniture hardware
                 <img src="~/assets/images/furniture-hardware.jpg" alt="furniture-hardware-pull-handle-knob">
-              </a>
-              <a href="/customization" class="sub-cate" @click="$delayA($event),$ga.event('1st cate','click', 'customization')">
+              </a> -->
+              <a href="/customization"  class="main-cate" @click="$delayA($event),$ga.event('1st cate','click', 'customization')">
                 customization
                 <img src="~/assets/images/customization.jpg" alt="custom made hardware available">
               </a>
