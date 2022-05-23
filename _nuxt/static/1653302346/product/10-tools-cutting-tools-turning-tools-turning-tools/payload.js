@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/10-tools-cutting-tools-turning-tools-turning-tools", (function(a){return {data:[{data:{class:"last",id:10,img:a,title:"Turning tools",detail:[{img:a,txt:[{key:"Specification",value:"Internal"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fturning-tools\u002FT-CT--(11).jpg")));

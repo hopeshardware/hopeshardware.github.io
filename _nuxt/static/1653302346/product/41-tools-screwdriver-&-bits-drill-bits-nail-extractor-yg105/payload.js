@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/41-tools-screwdriver-&-bits-drill-bits-nail-extractor-yg105", (function(a){return {data:[{data:{class:"last",img:a,title:"Nail Extractor YG105",detail:[{img:a,txt:[{key:"Item No.",value:"YG105"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-YG105.JPG")));

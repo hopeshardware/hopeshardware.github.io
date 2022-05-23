@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/0-tools-cutting-tools-reamer-reamer", (function(a){return {data:[{data:{class:"last",id:0,img:a,title:"Reamer",detail:[{img:a,txt:[{key:"Specification",value:"Straight flutes"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Freamer\u002FT-CR--(1).jpg")));

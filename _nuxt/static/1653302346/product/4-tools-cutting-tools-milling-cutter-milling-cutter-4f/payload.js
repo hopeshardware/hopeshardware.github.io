@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/4-tools-cutting-tools-milling-cutter-milling-cutter-4f", (function(a){return {data:[{data:{class:"last",img:a,title:"Milling cutter-4F",detail:[{img:a,txt:[{key:"Size",value:"0.3-20mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-4F.JPG")));

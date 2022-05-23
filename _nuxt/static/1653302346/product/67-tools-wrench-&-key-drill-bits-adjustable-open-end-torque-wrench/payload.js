@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/67-tools-wrench-&-key-drill-bits-adjustable-open-end-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Adjustable open end torque wrench",detail:[{img:a,txt:[{key:"Size",value:"5-980N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-5-980.png")));

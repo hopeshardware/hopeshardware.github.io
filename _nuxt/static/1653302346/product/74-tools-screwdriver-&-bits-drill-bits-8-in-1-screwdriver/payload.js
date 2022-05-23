@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/74-tools-screwdriver-&-bits-drill-bits-8-in-1-screwdriver", (function(a){return {data:[{data:{class:"last",img:a,title:"8-IN-1 Screwdriver",detail:[{img:a,txt:[{key:"Item No.",value:"CC-01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-CC01.JPG")));

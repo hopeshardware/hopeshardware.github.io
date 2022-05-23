@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/55-tools-screwdriver-&-bits-drill-bits-screwdriver-pg9907", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver PG9907",detail:[{img:a,txt:[{key:"Item No.",value:"PG9907"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG9907.JPG")));

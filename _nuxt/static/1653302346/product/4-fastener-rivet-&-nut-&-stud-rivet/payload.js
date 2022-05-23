@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/4-fastener-rivet-&-nut-&-stud-rivet", (function(a){return {data:[{data:{class:"last",id:4,img:a,title:"Rivet",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel, Aluminum\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Frivet-&-nut-&-stud\u002FF-Rivet.jpg")));

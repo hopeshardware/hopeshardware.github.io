@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/65-tools-wrench-&-key-drill-bits-digital-exchangable-head-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Digital exchangable head torque wrench",detail:[{img:a,txt:[{key:"Size",value:"1.5-340N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-1.5-340.jpg")));

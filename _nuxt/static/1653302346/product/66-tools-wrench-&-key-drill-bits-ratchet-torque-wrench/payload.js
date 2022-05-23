@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/66-tools-wrench-&-key-drill-bits-ratchet-torque-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Ratchet torque wrench",detail:[{img:a,txt:[{key:"Size",value:"5-750N\u002Fm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Torque-5-750.JPG")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/6-tools-cutting-tools-other-screw", (function(a){return {data:[{data:{class:"last",id:6,img:a,title:"Screw",detail:[{img:a,txt:[{key:"Specification",value:"for turning tools"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fother\u002FT-CP--(26).jpg")));

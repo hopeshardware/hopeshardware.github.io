@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/17-tools-cutting-tools-cutter-insert-carbide-insert", (function(a){return {data:[{data:{class:"last",id:17,img:a,title:"Carbide Insert",detail:[{img:a,txt:[{key:"Specification",value:"Carbide"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fcutter-insert\u002FT-CP--(9).jpg")));

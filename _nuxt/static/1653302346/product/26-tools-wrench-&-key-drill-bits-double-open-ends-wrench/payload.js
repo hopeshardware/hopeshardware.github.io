@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/26-tools-wrench-&-key-drill-bits-double-open-ends-wrench", (function(a){return {data:[{data:{class:"last",img:a,title:"Double open ends wrench",detail:[{img:a,txt:[{key:"Size",value:"6-34mm"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fwrench-&-key\u002Fdrill-bits\u002FWrench-Open-2-Casting.jpg")));

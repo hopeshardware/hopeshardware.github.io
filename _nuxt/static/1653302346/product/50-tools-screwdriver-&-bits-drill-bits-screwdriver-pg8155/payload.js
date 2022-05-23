@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/50-tools-screwdriver-&-bits-drill-bits-screwdriver-pg8155", (function(a){return {data:[{data:{class:"last",img:a,title:"Screwdriver PG8155",detail:[{img:a,txt:[{key:"Item No.",value:"PG8155"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-PG8155B.JPG")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/66-tools-screwdriver-&-bits-drill-bits-digital-torque-screwdriver", (function(a,b){return {data:[{data:{class:"last",img:a,title:"Digital torque screwdriver",detail:[{img:a,txt:[{key:b,value:b}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Torque.JPG","")));

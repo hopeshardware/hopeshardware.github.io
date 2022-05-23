@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/25-fastener-nut-knurled-nut", (function(a){return {data:[{data:{class:"last",id:25,img:a,title:"Knurled nut",detail:[{img:a,txt:[{key:"Material",value:"Stainless steel, Carbon steel\n"},{key:"",value:"\n"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ffastener\u002Fnut\u002FF-N-Knurled-nut-(2).png")));

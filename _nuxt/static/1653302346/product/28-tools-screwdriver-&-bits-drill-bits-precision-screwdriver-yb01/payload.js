@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/28-tools-screwdriver-&-bits-drill-bits-precision-screwdriver-yb01", (function(a){return {data:[{data:{class:"last",img:a,title:"Precision Screwdriver YB01",detail:[{img:a,txt:[{key:"Item No.",value:"YB01"}]}]}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fscrewdriver-&-bits\u002Fdrill-bits\u002FScrewdriver-Precision-YB-01.JPG")));

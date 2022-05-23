@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/15-tools-cutting-tools-milling-cutter-straight-flutes-milling-cutter", (function(a){return {data:[{data:{class:"last",img:a,title:"Straight flutes Milling cutter",detail:[{img:a,txt:[{key:"Size",value:"12-100mm"}]}],id:null}}],fetch:{},mutations:void 0}}("\u002Fimg\u002Ftools\u002Fcutting-tools\u002Fmilling-cutter\u002FMilling-Straight-welding.jpg")));
